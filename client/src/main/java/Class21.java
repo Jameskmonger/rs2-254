@@ -41,7 +41,7 @@ public final class Class21 {
 	public boolean aBoolean181 = true;
 
 	@OriginalMember(owner = "client!kc", name = "a", descriptor = "(ILclient!mb;)V")
-	public void method448(@OriginalArg(0) int arg0, @OriginalArg(1) Class1_Sub1_Sub3 arg1) {
+	public void method448(@OriginalArg(0) int arg0, @OriginalArg(1) Buffer arg1) {
 		try {
 			if (arg0 != 9) {
 				throw new NullPointerException();

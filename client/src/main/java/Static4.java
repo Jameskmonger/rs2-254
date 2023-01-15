@@ -42,7 +42,7 @@ public final class Static4 {
 	public static boolean method59(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1, @OriginalArg(2) byte[] arg2, @OriginalArg(3) byte arg3) {
 		try {
 			@Pc(3) boolean local3 = true;
-			@Pc(9) Class1_Sub1_Sub3 local9 = new Class1_Sub1_Sub3(arg2, (byte) 3);
+			@Pc(9) Buffer local9 = new Buffer(arg2, (byte) 3);
 			if (arg3 != 74) {
 				anInt198 = -127;
 			}
@@ -90,7 +90,7 @@ public final class Static4 {
 	}
 
 	@OriginalMember(owner = "client!c", name = "a", descriptor = "(Lclient!mb;Lclient!vb;B)V")
-	public static void method60(@OriginalArg(0) Class1_Sub1_Sub3 arg0, @OriginalArg(1) Class45_Sub1 arg1, @OriginalArg(2) byte arg2) {
+	public static void method60(@OriginalArg(0) Buffer arg0, @OriginalArg(1) Class45_Sub1 arg1, @OriginalArg(2) byte arg2) {
 		try {
 			@Pc(3) int local3 = -1;
 			if (arg2 != -13) {

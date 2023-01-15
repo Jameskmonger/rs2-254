@@ -166,15 +166,15 @@ public final class Class1_Sub1_Sub1_Sub5 extends Class1_Sub1_Sub1 {
 				this.anIntArray142 = new int[this.anInt544];
 			}
 			this.anIntArray137 = new int[this.anInt544];
-			@Pc(138) Class1_Sub1_Sub3 local138 = new Class1_Sub1_Sub3(local20.aByteArray8, (byte) 3);
+			@Pc(138) Buffer local138 = new Buffer(local20.aByteArray8, (byte) 3);
 			local138.anInt777 = local20.anInt757;
-			@Pc(149) Class1_Sub1_Sub3 local149 = new Class1_Sub1_Sub3(local20.aByteArray8, (byte) 3);
+			@Pc(149) Buffer local149 = new Buffer(local20.aByteArray8, (byte) 3);
 			local149.anInt777 = local20.anInt758;
-			@Pc(160) Class1_Sub1_Sub3 local160 = new Class1_Sub1_Sub3(local20.aByteArray8, (byte) 3);
+			@Pc(160) Buffer local160 = new Buffer(local20.aByteArray8, (byte) 3);
 			local160.anInt777 = local20.anInt759;
-			@Pc(171) Class1_Sub1_Sub3 local171 = new Class1_Sub1_Sub3(local20.aByteArray8, (byte) 3);
+			@Pc(171) Buffer local171 = new Buffer(local20.aByteArray8, (byte) 3);
 			local171.anInt777 = local20.anInt760;
-			@Pc(182) Class1_Sub1_Sub3 local182 = new Class1_Sub1_Sub3(local20.aByteArray8, (byte) 3);
+			@Pc(182) Buffer local182 = new Buffer(local20.aByteArray8, (byte) 3);
 			local182.anInt777 = local20.anInt761;
 			@Pc(188) int local188 = 0;
 			@Pc(190) int local190 = 0;

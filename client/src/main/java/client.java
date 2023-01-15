@@ -834,7 +834,7 @@ public final class client extends Applet_Sub1 {
 	private boolean aBoolean50 = true;
 
 	@OriginalMember(owner = "client!client", name = "bc", descriptor = "Lclient!mb;")
-	private Class1_Sub1_Sub3 aClass1_Sub1_Sub3_2 = Static21.method485(1, (byte) 73);
+	private Buffer aBuffer_2 = Static21.method485(1, (byte) 73);
 
 	@OriginalMember(owner = "client!client", name = "cc", descriptor = "[I")
 	private int[] anIntArray46 = new int[5];
@@ -888,7 +888,7 @@ public final class client extends Applet_Sub1 {
 	private int anInt302 = 110;
 
 	@OriginalMember(owner = "client!client", name = "id", descriptor = "Lclient!mb;")
-	private Class1_Sub1_Sub3 aClass1_Sub1_Sub3_3 = Static21.method485(1, (byte) 73);
+	private Buffer aBuffer_3 = Static21.method485(1, (byte) 73);
 
 	@OriginalMember(owner = "client!client", name = "md", descriptor = "I")
 	private int anInt305 = 2;
@@ -969,7 +969,7 @@ public final class client extends Applet_Sub1 {
 	private int[] anIntArray63 = new int[this.anInt331];
 
 	@OriginalMember(owner = "client!client", name = "ue", descriptor = "[Lclient!mb;")
-	private Class1_Sub1_Sub3[] aClass1_Sub1_Sub3Array1 = new Class1_Sub1_Sub3[this.anInt331];
+	private Buffer[] aBufferArray1 = new Buffer[this.anInt331];
 
 	@OriginalMember(owner = "client!client", name = "ve", descriptor = "Z")
 	private boolean aBoolean63 = false;
@@ -1164,7 +1164,7 @@ public final class client extends Applet_Sub1 {
 	private int anInt409 = -1;
 
 	@OriginalMember(owner = "client!client", name = "zh", descriptor = "Lclient!mb;")
-	private Class1_Sub1_Sub3 aClass1_Sub1_Sub3_4 = Static21.method485(1, (byte) 73);
+	private Buffer aBuffer_4 = Static21.method485(1, (byte) 73);
 
 	@OriginalMember(owner = "client!client", name = "Jh", descriptor = "[I")
 	private int[] anIntArray84 = new int[200];
@@ -1387,11 +1387,11 @@ public final class client extends Applet_Sub1 {
 					this.method109(889);
 				}
 				if (local28 == 563) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 102);
-					this.aClass1_Sub1_Sub3_4.method489(local33);
-					this.aClass1_Sub1_Sub3_4.method489(local18);
-					this.aClass1_Sub1_Sub3_4.method489(local23);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt337);
+					this.aBuffer_4.method487(4, 102);
+					this.aBuffer_4.method489(local33);
+					this.aBuffer_4.method489(local18);
+					this.aBuffer_4.method489(local23);
+					this.aBuffer_4.method489(this.anInt337);
 					this.anInt255 = 0;
 					this.anInt256 = local23;
 					this.anInt257 = local18;
@@ -1407,26 +1407,26 @@ public final class client extends Applet_Sub1 {
 					if (local28 == 681) {
 						Static6.anInt442++;
 						if (Static6.anInt442 >= 116) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 162);
-							this.aClass1_Sub1_Sub3_4.method491(13018169);
+							this.aBuffer_4.method487(4, 162);
+							this.aBuffer_4.method491(13018169);
 						}
-						this.aClass1_Sub1_Sub3_4.method487(4, 163);
+						this.aBuffer_4.method487(4, 163);
 					}
 					if (local28 == 962) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 228);
+						this.aBuffer_4.method487(4, 228);
 					}
 					if (local28 == 694) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 243);
+						this.aBuffer_4.method487(4, 243);
 					}
 					if (local28 == 100) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 74);
+						this.aBuffer_4.method487(4, 74);
 					}
 					if (local28 == 795) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 80);
+						this.aBuffer_4.method487(4, 80);
 					}
-					this.aClass1_Sub1_Sub3_4.method489(local33);
-					this.aClass1_Sub1_Sub3_4.method489(local18);
-					this.aClass1_Sub1_Sub3_4.method489(local23);
+					this.aBuffer_4.method489(local33);
+					this.aBuffer_4.method489(local18);
+					this.aBuffer_4.method489(local23);
 					this.anInt255 = 0;
 					this.anInt256 = local23;
 					this.anInt257 = local18;
@@ -1439,13 +1439,13 @@ public final class client extends Applet_Sub1 {
 					}
 				}
 				if (local28 == 398) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 200);
-					this.aClass1_Sub1_Sub3_4.method489(local33);
-					this.aClass1_Sub1_Sub3_4.method489(local18);
-					this.aClass1_Sub1_Sub3_4.method489(local23);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt245);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt243);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt244);
+					this.aBuffer_4.method487(4, 200);
+					this.aBuffer_4.method489(local33);
+					this.aBuffer_4.method489(local18);
+					this.aBuffer_4.method489(local23);
+					this.aBuffer_4.method489(this.anInt245);
+					this.aBuffer_4.method489(this.anInt243);
+					this.aBuffer_4.method489(this.anInt244);
 					this.anInt255 = 0;
 					this.anInt256 = local23;
 					this.anInt257 = local18;
@@ -1465,8 +1465,8 @@ public final class client extends Applet_Sub1 {
 						local307 = this.method107(local305, 0);
 					}
 					if (local307) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 244);
-						this.aClass1_Sub1_Sub3_4.method489(local23);
+						this.aBuffer_4.method487(4, 244);
+						this.aBuffer_4.method489(local23);
 					}
 				}
 				@Pc(334) Class1_Sub1_Sub1_Sub1_Sub1 local334;
@@ -1502,8 +1502,8 @@ public final class client extends Applet_Sub1 {
 				if (local28 == 721) {
 					Static6.anInt342 += local23;
 					if (Static6.anInt342 >= 139) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 28);
-						this.aClass1_Sub1_Sub3_4.method492(0);
+						this.aBuffer_4.method487(4, 28);
+						this.aBuffer_4.method492(0);
 					}
 					this.method198(local18, this.anInt450, local23, local33, 213);
 				}
@@ -1516,29 +1516,29 @@ public final class client extends Applet_Sub1 {
 						this.anInt392 = 2;
 						this.anInt391 = 0;
 						if (local28 == 309) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 69);
+							this.aBuffer_4.method487(4, 69);
 						}
 						if (local28 == 852) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 122);
+							this.aBuffer_4.method487(4, 122);
 						}
 						if (local28 == 209) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 195);
+							this.aBuffer_4.method487(4, 195);
 						}
 						if (local28 == 793) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 118);
+							this.aBuffer_4.method487(4, 118);
 						}
 						if (local28 == 242) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 143);
+							this.aBuffer_4.method487(4, 143);
 						}
-						this.aClass1_Sub1_Sub3_4.method489(local33);
+						this.aBuffer_4.method489(local33);
 					}
 				}
 				if (local28 == 899 && this.method198(local18, this.anInt450, local23, local33, 26)) {
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt337);
+					this.aBuffer_4.method489(this.anInt337);
 				}
 				if (local28 == 225) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 244);
-					this.aClass1_Sub1_Sub3_4.method489(local23);
+					this.aBuffer_4.method487(4, 244);
+					this.aBuffer_4.method489(local23);
 					local305 = Static7.aClass6Array1[local23];
 					if (local305.anIntArrayArray6 != null && local305.anIntArrayArray6[0][0] == 5) {
 						local380 = local305.anIntArrayArray6[0][1];
@@ -1600,11 +1600,11 @@ public final class client extends Applet_Sub1 {
 					this.anInt390 = super.anInt237;
 					this.anInt392 = 2;
 					this.anInt391 = 0;
-					this.aClass1_Sub1_Sub3_4.method487(4, 202);
-					this.aClass1_Sub1_Sub3_4.method489(local18 + this.anInt381);
-					this.aClass1_Sub1_Sub3_4.method489(local23 + this.anInt382);
-					this.aClass1_Sub1_Sub3_4.method489(local33);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt337);
+					this.aBuffer_4.method487(4, 202);
+					this.aBuffer_4.method489(local18 + this.anInt381);
+					this.aBuffer_4.method489(local23 + this.anInt382);
+					this.aBuffer_4.method489(local33);
+					this.aBuffer_4.method489(this.anInt337);
 				}
 				if (local28 == 139 || local28 == 778 || local28 == 617 || local28 == 224 || local28 == 662) {
 					local823 = this.method155(0, 0, 0, 9, local18, 2, Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray17[0], Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray16[0], local23, false, 0, 0);
@@ -1616,40 +1616,40 @@ public final class client extends Applet_Sub1 {
 					this.anInt392 = 2;
 					this.anInt391 = 0;
 					if (local28 == 617) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 178);
+						this.aBuffer_4.method487(4, 178);
 					}
 					if (local28 == 662) {
 						Static6.anInt388 += this.anInt382;
 						if (Static6.anInt388 >= 118) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 56);
-							this.aClass1_Sub1_Sub3_4.method492(0);
+							this.aBuffer_4.method487(4, 56);
+							this.aBuffer_4.method492(0);
 						}
-						this.aClass1_Sub1_Sub3_4.method487(4, 97);
+						this.aBuffer_4.method487(4, 97);
 					}
 					if (local28 == 778) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 67);
+						this.aBuffer_4.method487(4, 67);
 					}
 					if (local28 == 139) {
 						if ((local18 & 0x3) == 0) {
 							Static6.anInt260++;
 						}
 						if (Static6.anInt260 >= 123) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 187);
-							this.aClass1_Sub1_Sub3_4.method492(0);
+							this.aBuffer_4.method487(4, 187);
+							this.aBuffer_4.method492(0);
 						}
-						this.aClass1_Sub1_Sub3_4.method487(4, 141);
+						this.aBuffer_4.method487(4, 141);
 					}
 					if (local28 == 224) {
 						Static6.anInt431 += local23;
 						if (Static6.anInt431 >= 75) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 206);
-							this.aClass1_Sub1_Sub3_4.method488(19);
+							this.aBuffer_4.method487(4, 206);
+							this.aBuffer_4.method488(19);
 						}
-						this.aClass1_Sub1_Sub3_4.method487(4, 47);
+						this.aBuffer_4.method487(4, 47);
 					}
-					this.aClass1_Sub1_Sub3_4.method489(local18 + this.anInt381);
-					this.aClass1_Sub1_Sub3_4.method489(local23 + this.anInt382);
-					this.aClass1_Sub1_Sub3_4.method489(local33);
+					this.aBuffer_4.method489(local18 + this.anInt381);
+					this.aBuffer_4.method489(local23 + this.anInt382);
+					this.aBuffer_4.method489(local33);
 				}
 				@Pc(1104) String local1104;
 				if (local28 == 507 || local28 == 957) {
@@ -1666,20 +1666,20 @@ public final class client extends Applet_Sub1 {
 								if (local28 == 507) {
 									Static6.anInt310 += local33;
 									if (Static6.anInt310 >= 66) {
-										this.aClass1_Sub1_Sub3_4.method487(4, 233);
-										this.aClass1_Sub1_Sub3_4.method488(154);
+										this.aBuffer_4.method487(4, 233);
+										this.aBuffer_4.method488(154);
 									}
-									this.aClass1_Sub1_Sub3_4.method487(4, 72);
+									this.aBuffer_4.method487(4, 72);
 								}
 								if (local28 == 957) {
 									Static6.anInt452++;
 									if (Static6.anInt452 >= 52) {
-										this.aClass1_Sub1_Sub3_4.method487(4, 121);
-										this.aClass1_Sub1_Sub3_4.method488(131);
+										this.aBuffer_4.method487(4, 121);
+										this.aBuffer_4.method488(131);
 									}
-									this.aClass1_Sub1_Sub3_4.method487(4, 192);
+									this.aBuffer_4.method487(4, 192);
 								}
-								this.aClass1_Sub1_Sub3_4.method489(this.anIntArray62[local726]);
+								this.aBuffer_4.method489(this.anIntArray62[local726]);
 								local1106 = true;
 								break;
 							}
@@ -1690,9 +1690,9 @@ public final class client extends Applet_Sub1 {
 					}
 				}
 				if (local28 == 810 && this.method198(local18, this.anInt450, local23, local33, 240)) {
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt245);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt243);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt244);
+					this.aBuffer_4.method489(this.anInt245);
+					this.aBuffer_4.method489(this.anInt243);
+					this.aBuffer_4.method489(this.anInt244);
 				}
 				if (local28 == 1381) {
 					@Pc(1270) int local1270 = local33 >> 14 & 0x7FFF;
@@ -1728,30 +1728,30 @@ public final class client extends Applet_Sub1 {
 				} else {
 					if (local28 == 582 || local28 == 113 || local28 == 555 || local28 == 331 || local28 == 354) {
 						if (local28 == 331) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 160);
+							this.aBuffer_4.method487(4, 160);
 						}
 						if (local28 == 582) {
 							if ((local33 & 0x3) == 0) {
 								Static6.anInt343++;
 							}
 							if (Static6.anInt343 >= 133) {
-								this.aClass1_Sub1_Sub3_4.method487(4, 131);
-								this.aClass1_Sub1_Sub3_4.method489(6118);
+								this.aBuffer_4.method487(4, 131);
+								this.aBuffer_4.method489(6118);
 							}
-							this.aClass1_Sub1_Sub3_4.method487(4, 181);
+							this.aBuffer_4.method487(4, 181);
 						}
 						if (local28 == 113) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 70);
+							this.aBuffer_4.method487(4, 70);
 						}
 						if (local28 == 555) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 59);
+							this.aBuffer_4.method487(4, 59);
 						}
 						if (local28 == 354) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 62);
+							this.aBuffer_4.method487(4, 62);
 						}
-						this.aClass1_Sub1_Sub3_4.method489(local33);
-						this.aClass1_Sub1_Sub3_4.method489(local18);
-						this.aClass1_Sub1_Sub3_4.method489(local23);
+						this.aBuffer_4.method489(local33);
+						this.aBuffer_4.method489(local18);
+						this.aBuffer_4.method489(local23);
 						this.anInt255 = 0;
 						this.anInt256 = local23;
 						this.anInt257 = local18;
@@ -1772,13 +1772,13 @@ public final class client extends Applet_Sub1 {
 						this.anInt390 = super.anInt237;
 						this.anInt392 = 2;
 						this.anInt391 = 0;
-						this.aClass1_Sub1_Sub3_4.method487(4, 245);
-						this.aClass1_Sub1_Sub3_4.method489(local18 + this.anInt381);
-						this.aClass1_Sub1_Sub3_4.method489(local23 + this.anInt382);
-						this.aClass1_Sub1_Sub3_4.method489(local33);
-						this.aClass1_Sub1_Sub3_4.method489(this.anInt245);
-						this.aClass1_Sub1_Sub3_4.method489(this.anInt243);
-						this.aClass1_Sub1_Sub3_4.method489(this.anInt244);
+						this.aBuffer_4.method487(4, 245);
+						this.aBuffer_4.method489(local18 + this.anInt381);
+						this.aBuffer_4.method489(local23 + this.anInt382);
+						this.aBuffer_4.method489(local33);
+						this.aBuffer_4.method489(this.anInt245);
+						this.aBuffer_4.method489(this.anInt243);
+						this.aBuffer_4.method489(this.anInt244);
 					}
 					if (local28 == 829) {
 						local334 = this.aClass1_Sub1_Sub1_Sub1_Sub1Array1[local33];
@@ -1788,11 +1788,11 @@ public final class client extends Applet_Sub1 {
 							this.anInt390 = super.anInt237;
 							this.anInt392 = 2;
 							this.anInt391 = 0;
-							this.aClass1_Sub1_Sub3_4.method487(4, 119);
-							this.aClass1_Sub1_Sub3_4.method489(local33);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt245);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt243);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt244);
+							this.aBuffer_4.method487(4, 119);
+							this.aBuffer_4.method489(local33);
+							this.aBuffer_4.method489(this.anInt245);
+							this.aBuffer_4.method489(this.anInt243);
+							this.aBuffer_4.method489(this.anInt244);
 						}
 					}
 					if (local28 == 718) {
@@ -1803,8 +1803,8 @@ public final class client extends Applet_Sub1 {
 						}
 					}
 					if (local28 == 997 && !this.aBoolean70) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 146);
-						this.aClass1_Sub1_Sub3_4.method489(local23);
+						this.aBuffer_4.method487(4, 146);
+						this.aBuffer_4.method489(local23);
 						this.aBoolean70 = true;
 					}
 					@Pc(1748) Class1_Sub1_Sub1_Sub1_Sub2 local1748;
@@ -1819,34 +1819,34 @@ public final class client extends Applet_Sub1 {
 							if (local28 == 387) {
 								Static6.anInt310 += local33;
 								if (Static6.anInt310 >= 66) {
-									this.aClass1_Sub1_Sub3_4.method487(4, 233);
-									this.aClass1_Sub1_Sub3_4.method488(154);
+									this.aBuffer_4.method487(4, 233);
+									this.aBuffer_4.method488(154);
 								}
-								this.aClass1_Sub1_Sub3_4.method487(4, 72);
+								this.aBuffer_4.method487(4, 72);
 							}
 							if (local28 == 27) {
-								this.aClass1_Sub1_Sub3_4.method487(4, 18);
+								this.aBuffer_4.method487(4, 18);
 							}
 							if (local28 == 639) {
 								Static6.anInt452++;
 								if (Static6.anInt452 >= 52) {
-									this.aClass1_Sub1_Sub3_4.method487(4, 121);
-									this.aClass1_Sub1_Sub3_4.method488(131);
+									this.aBuffer_4.method487(4, 121);
+									this.aBuffer_4.method488(131);
 								}
-								this.aClass1_Sub1_Sub3_4.method487(4, 192);
+								this.aBuffer_4.method487(4, 192);
 							}
 							if (local28 == 185) {
-								this.aClass1_Sub1_Sub3_4.method487(4, 230);
+								this.aBuffer_4.method487(4, 230);
 							}
 							if (local28 == 499) {
-								this.aClass1_Sub1_Sub3_4.method487(4, 17);
+								this.aBuffer_4.method487(4, 17);
 							}
-							this.aClass1_Sub1_Sub3_4.method489(local33);
+							this.aBuffer_4.method489(local33);
 						}
 					}
 					if (local28 == 435) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 244);
-						this.aClass1_Sub1_Sub3_4.method489(local23);
+						this.aBuffer_4.method487(4, 244);
+						this.aBuffer_4.method489(local23);
 						local305 = Static7.aClass6Array1[local23];
 						if (local305.anIntArrayArray6 != null && local305.anIntArrayArray6[0][0] == 5) {
 							local380 = local305.anIntArrayArray6[0][1];
@@ -1866,9 +1866,9 @@ public final class client extends Applet_Sub1 {
 							this.anInt390 = super.anInt237;
 							this.anInt392 = 2;
 							this.anInt391 = 0;
-							this.aClass1_Sub1_Sub3_4.method487(4, 68);
-							this.aClass1_Sub1_Sub3_4.method489(local33);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt337);
+							this.aBuffer_4.method487(4, 68);
+							this.aBuffer_4.method489(local33);
+							this.aBuffer_4.method489(this.anInt337);
 						}
 					}
 					if (local28 == 1152) {
@@ -1910,9 +1910,9 @@ public final class client extends Applet_Sub1 {
 							this.anInt390 = super.anInt237;
 							this.anInt392 = 2;
 							this.anInt391 = 0;
-							this.aClass1_Sub1_Sub3_4.method487(4, 231);
-							this.aClass1_Sub1_Sub3_4.method489(local33);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt337);
+							this.aBuffer_4.method487(4, 231);
+							this.aBuffer_4.method489(local33);
+							this.aBuffer_4.method489(this.anInt337);
 						}
 					}
 					if (local28 == 275) {
@@ -1923,18 +1923,18 @@ public final class client extends Applet_Sub1 {
 							this.anInt390 = super.anInt237;
 							this.anInt392 = 2;
 							this.anInt391 = 0;
-							this.aClass1_Sub1_Sub3_4.method487(4, 113);
-							this.aClass1_Sub1_Sub3_4.method489(local33);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt245);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt243);
-							this.aClass1_Sub1_Sub3_4.method489(this.anInt244);
+							this.aBuffer_4.method487(4, 113);
+							this.aBuffer_4.method489(local33);
+							this.aBuffer_4.method489(this.anInt245);
+							this.aBuffer_4.method489(this.anInt243);
+							this.aBuffer_4.method489(this.anInt244);
 						}
 					}
 					if (local28 == 743) {
 						Static6.anInt281++;
 						if (Static6.anInt281 >= 124) {
-							this.aClass1_Sub1_Sub3_4.method487(4, 77);
-							this.aClass1_Sub1_Sub3_4.method489(37954);
+							this.aBuffer_4.method487(4, 77);
+							this.aBuffer_4.method489(37954);
 						}
 						this.method198(local18, this.anInt450, local23, local33, 98);
 					}
@@ -2008,7 +2008,7 @@ public final class client extends Applet_Sub1 {
 				}
 				this.method132(0);
 				if (arg0 != 68) {
-					this.aClass1_Sub1_Sub3_4.method488(205);
+					this.aBuffer_4.method488(205);
 				}
 			}
 		} catch (@Pc(36) RuntimeException local36) {
@@ -2079,7 +2079,7 @@ public final class client extends Applet_Sub1 {
 				@Pc(105) boolean local105 = false;
 				Static4.anInt201 = this.anInt278;
 				this.method220((byte) 6);
-				this.aClass1_Sub1_Sub3_4.method487(4, 134);
+				this.aBuffer_4.method487(4, 134);
 				return 0;
 			}
 		} catch (@Pc(123) RuntimeException local123) {
@@ -2420,13 +2420,13 @@ public final class client extends Applet_Sub1 {
 				this.method119(false);
 			}
 			if (local10 == 326) {
-				this.aClass1_Sub1_Sub3_4.method487(4, 13);
-				this.aClass1_Sub1_Sub3_4.method488(this.aBoolean77 ? 0 : 1);
+				this.aBuffer_4.method487(4, 13);
+				this.aBuffer_4.method488(this.aBoolean77 ? 0 : 1);
 				for (local118 = 0; local118 < 7; local118++) {
-					this.aClass1_Sub1_Sub3_4.method488(this.anIntArray53[local118]);
+					this.aBuffer_4.method488(this.anIntArray53[local118]);
 				}
 				for (local122 = 0; local122 < 5; local122++) {
-					this.aClass1_Sub1_Sub3_4.method488(this.anIntArray80[local122]);
+					this.aBuffer_4.method488(this.anIntArray80[local122]);
 				}
 				return true;
 			}
@@ -2436,10 +2436,10 @@ public final class client extends Applet_Sub1 {
 			if (local10 >= 601 && local10 <= 612) {
 				this.method109(889);
 				if (this.aString12.length() > 0) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 203);
-					this.aClass1_Sub1_Sub3_4.method494(854, Static36.method679(this.aString12));
-					this.aClass1_Sub1_Sub3_4.method488(local10 - 601);
-					this.aClass1_Sub1_Sub3_4.method488(this.aBoolean86 ? 1 : 0);
+					this.aBuffer_4.method487(4, 203);
+					this.aBuffer_4.method494(854, Static36.method679(this.aString12));
+					this.aBuffer_4.method488(local10 - 601);
+					this.aBuffer_4.method488(this.aBoolean86 ? 1 : 0);
 				}
 			}
 			return false;
@@ -2534,7 +2534,7 @@ public final class client extends Applet_Sub1 {
 	@OriginalMember(owner = "client!client", name = "g", descriptor = "(I)V")
 	private void method109(@OriginalArg(0) int arg0) {
 		try {
-			this.aClass1_Sub1_Sub3_4.method487(4, 58);
+			this.aBuffer_4.method487(4, 58);
 			if (this.anInt429 != -1) {
 				this.anInt429 = -1;
 				this.aBoolean44 = true;
@@ -2963,8 +2963,8 @@ public final class client extends Applet_Sub1 {
 						for (@Pc(28) int local28 = local8; local28 < this.anInt451; local28++) {
 							this.aLongArray3[local28] = this.aLongArray3[local28 + 1];
 						}
-						this.aClass1_Sub1_Sub3_4.method487(4, 193);
-						this.aClass1_Sub1_Sub3_4.method494(854, arg0);
+						this.aBuffer_4.method487(4, 193);
+						this.aBuffer_4.method494(854, arg0);
 						break;
 					}
 				}
@@ -3145,7 +3145,7 @@ public final class client extends Applet_Sub1 {
 		try {
 			this.aBoolean75 = true;
 			if (arg0 != 0) {
-				this.aClass1_Sub1_Sub3_4.method488(39);
+				this.aBuffer_4.method488(39);
 			}
 		} catch (@Pc(10) RuntimeException local10) {
 			signlink.reporterror("8462, " + arg0 + ", " + local10.toString());
@@ -3283,8 +3283,8 @@ public final class client extends Applet_Sub1 {
 					return false;
 				}
 				if (this.anInt350 == -1) {
-					this.aClass8_1.method247(this.aClass1_Sub1_Sub3_3.aByteArray9, 0, 1);
-					this.anInt350 = this.aClass1_Sub1_Sub3_3.aByteArray9[0] & 0xFF;
+					this.aClass8_1.method247(this.aBuffer_3.aByteArray9, 0, 1);
+					this.anInt350 = this.aBuffer_3.aByteArray9[0] & 0xFF;
 					if (this.aClass47_1 != null) {
 						this.anInt350 = this.anInt350 - this.aClass47_1.method674() & 0xFF;
 					}
@@ -3295,31 +3295,31 @@ public final class client extends Applet_Sub1 {
 					if (local16 <= 0) {
 						return false;
 					}
-					this.aClass8_1.method247(this.aClass1_Sub1_Sub3_3.aByteArray9, 0, 1);
-					this.anInt349 = this.aClass1_Sub1_Sub3_3.aByteArray9[0] & 0xFF;
+					this.aClass8_1.method247(this.aBuffer_3.aByteArray9, 0, 1);
+					this.anInt349 = this.aBuffer_3.aByteArray9[0] & 0xFF;
 					local16--;
 				}
 				if (this.anInt349 == -2) {
 					if (local16 <= 1) {
 						return false;
 					}
-					this.aClass8_1.method247(this.aClass1_Sub1_Sub3_3.aByteArray9, 0, 2);
-					this.aClass1_Sub1_Sub3_3.anInt777 = 0;
-					this.anInt349 = this.aClass1_Sub1_Sub3_3.get2();
+					this.aClass8_1.method247(this.aBuffer_3.aByteArray9, 0, 2);
+					this.aBuffer_3.anInt777 = 0;
+					this.anInt349 = this.aBuffer_3.get2();
 					local16 -= 2;
 				}
 				if (local16 < this.anInt349) {
 					return false;
 				}
-				this.aClass1_Sub1_Sub3_3.anInt777 = 0;
-				this.aClass8_1.method247(this.aClass1_Sub1_Sub3_3.aByteArray9, 0, this.anInt349);
+				this.aBuffer_3.anInt777 = 0;
+				this.aClass8_1.method247(this.aBuffer_3.aByteArray9, 0, this.anInt349);
 				this.anInt351 = 0;
 				this.anInt408 = this.anInt407;
 				this.anInt407 = this.anInt406;
 				this.anInt406 = this.anInt350;
 				@Pc(160) int local160;
 				if (this.anInt350 == 141) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					this.method188(0, local160);
 					if (this.anInt429 != -1) {
 						this.anInt429 = -1;
@@ -3334,7 +3334,7 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 197) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					this.method188(0, local160);
 					if (this.anInt429 != -1) {
 						this.anInt429 = -1;
@@ -3363,9 +3363,9 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 204) {
-					local160 = this.aClass1_Sub1_Sub3_3.get1();
-					local286 = this.aClass1_Sub1_Sub3_3.get1();
-					@Pc(290) String local290 = this.aClass1_Sub1_Sub3_3.getString();
+					local160 = this.aBuffer_3.get1();
+					local286 = this.aBuffer_3.get1();
+					@Pc(290) String local290 = this.aBuffer_3.getString();
 					if (local160 >= 1 && local160 <= 5) {
 						if (local290.equalsIgnoreCase("null")) {
 							local290 = null;
@@ -3377,11 +3377,11 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 146) {
-					this.anInt292 = this.aClass1_Sub1_Sub3_3.get4();
-					this.anInt298 = this.aClass1_Sub1_Sub3_3.get2();
-					this.anInt446 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt306 = this.aClass1_Sub1_Sub3_3.get2();
-					this.anInt402 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt292 = this.aBuffer_3.get4();
+					this.anInt298 = this.aBuffer_3.get2();
+					this.anInt446 = this.aBuffer_3.get1();
+					this.anInt306 = this.aBuffer_3.get2();
+					this.anInt402 = this.aBuffer_3.get1();
 					if (this.anInt292 != 0 && this.anInt399 == -1) {
 						signlink.dnslookup(Static36.method682((byte) -43, this.anInt292));
 						this.method109(889);
@@ -3403,9 +3403,9 @@ public final class client extends Applet_Sub1 {
 				}
 				@Pc(435) int local435;
 				if (this.anInt350 == 222) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
-					local435 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
+					local435 = this.aBuffer_3.get2();
 					@Pc(438) Class15 local438 = Static15.method345(local286);
 					Static7.aClass6Array1[local160].anInt475 = 4;
 					Static7.aClass6Array1[local160].anInt476 = local286;
@@ -3418,15 +3418,15 @@ public final class client extends Applet_Sub1 {
 				if (this.anInt350 == 63) {
 					this.anInt451 = this.anInt349 / 8;
 					for (local160 = 0; local160 < this.anInt451; local160++) {
-						this.aLongArray3[local160] = this.aClass1_Sub1_Sub3_3.get8(0);
+						this.aLongArray3[local160] = this.aBuffer_3.get8(0);
 					}
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 27) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2LE();
-					local435 = this.aClass1_Sub1_Sub3_3.get2LE();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2LE();
+					local435 = this.aBuffer_3.get2LE();
 					@Pc(527) Class6 local527 = Static7.aClass6Array1[local160];
 					local527.anInt463 = local286;
 					local527.anInt464 = local435;
@@ -3434,8 +3434,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 196) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get4();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get4();
 					this.anIntArray74[local160] = local286;
 					if (this.anIntArray41[local160] != local286) {
 						this.anIntArray41[local160] = local286;
@@ -3453,14 +3453,14 @@ public final class client extends Applet_Sub1 {
 				@Pc(600) Class6 local600;
 				if (this.anInt350 == 28) {
 					this.aBoolean44 = true;
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					local600 = Static7.aClass6Array1[local160];
-					local435 = this.aClass1_Sub1_Sub3_3.get1();
+					local435 = this.aBuffer_3.get1();
 					for (local606 = 0; local606 < local435; local606++) {
-						local600.anIntArray96[local606] = this.aClass1_Sub1_Sub3_3.get2();
-						local619 = this.aClass1_Sub1_Sub3_3.get1();
+						local600.anIntArray96[local606] = this.aBuffer_3.get2();
+						local619 = this.aBuffer_3.get1();
 						if (local619 == 255) {
-							local619 = this.aClass1_Sub1_Sub3_3.get4();
+							local619 = this.aBuffer_3.get4();
 						}
 						local600.anIntArray97[local606] = local619;
 					}
@@ -3473,9 +3473,9 @@ public final class client extends Applet_Sub1 {
 				}
 				if (this.anInt350 == 136) {
 					this.aBoolean44 = true;
-					local160 = this.aClass1_Sub1_Sub3_3.get1();
-					local286 = this.aClass1_Sub1_Sub3_3.get4();
-					local435 = this.aClass1_Sub1_Sub3_3.get1();
+					local160 = this.aBuffer_3.get1();
+					local286 = this.aBuffer_3.get4();
+					local435 = this.aBuffer_3.get1();
 					this.anIntArray85[local160] = local286;
 					this.anIntArray65[local160] = local435;
 					this.anIntArray70[local160] = 1;
@@ -3488,7 +3488,7 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 187) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					this.method188(0, local160);
 					if (this.anInt413 != -1) {
 						this.anInt413 = -1;
@@ -3507,8 +3507,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 249) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					if (this.anInt413 != -1) {
 						this.anInt413 = -1;
 						this.aBoolean79 = true;
@@ -3534,15 +3534,15 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 239) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2LE();
+					local160 = this.aBuffer_3.get2LE();
 					this.anInt283 = local160;
 					this.aBoolean79 = true;
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 38) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					local435 = local286 >> 10 & 0x1F;
 					local606 = local286 >> 5 & 0x1F;
 					local619 = local286 & 0x1F;
@@ -3551,9 +3551,9 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 64) {
-					this.anInt368 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt368 = this.aBuffer_3.get1();
 					if (this.anInt368 == 1) {
-						this.anInt259 = this.aClass1_Sub1_Sub3_3.get2();
+						this.anInt259 = this.aBuffer_3.get2();
 					}
 					if (this.anInt368 >= 2 && this.anInt368 <= 6) {
 						if (this.anInt368 == 2) {
@@ -3577,19 +3577,19 @@ public final class client extends Applet_Sub1 {
 							this.anInt378 = 128;
 						}
 						this.anInt368 = 2;
-						this.anInt374 = this.aClass1_Sub1_Sub3_3.get2();
-						this.anInt375 = this.aClass1_Sub1_Sub3_3.get2();
-						this.anInt376 = this.aClass1_Sub1_Sub3_3.get1();
+						this.anInt374 = this.aBuffer_3.get2();
+						this.anInt375 = this.aBuffer_3.get2();
+						this.anInt376 = this.aBuffer_3.get1();
 					}
 					if (this.anInt368 == 10) {
-						this.anInt355 = this.aClass1_Sub1_Sub3_3.get2();
+						this.anInt355 = this.aBuffer_3.get2();
 					}
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 159) {
-					this.anInt436 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt437 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt436 = this.aBuffer_3.get1();
+					this.anInt437 = this.aBuffer_3.get1();
 					for (local160 = this.anInt436; local160 < this.anInt436 + 8; local160++) {
 						for (local286 = this.anInt437; local286 < this.anInt437 + 8; local286++) {
 							if (this.aClass31ArrayArrayArray1[this.anInt278][local160][local286] != null) {
@@ -3607,17 +3607,17 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 161) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					Static7.aClass6Array1[local160].anInt475 = 3;
 					Static7.aClass6Array1[local160].anInt476 = (Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray19[0] << 24) + (Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray19[4] << 18) + (Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray18[0] << 12) + (Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray18[8] << 6) + Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray18[11];
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 225) {
-					local160 = this.aClass1_Sub1_Sub3_3.get1();
-					local286 = this.aClass1_Sub1_Sub3_3.get1();
-					local435 = this.aClass1_Sub1_Sub3_3.get1();
-					local606 = this.aClass1_Sub1_Sub3_3.get1();
+					local160 = this.aBuffer_3.get1();
+					local286 = this.aBuffer_3.get1();
+					local435 = this.aBuffer_3.get1();
+					local606 = this.aBuffer_3.get1();
 					this.aBooleanArray5[local160] = true;
 					this.anIntArray46[local160] = local286;
 					this.anIntArray81[local160] = local435;
@@ -3627,21 +3627,21 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 213) {
-					this.anInt409 = this.aClass1_Sub1_Sub3_3.get2();
-					this.anInt385 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt409 = this.aBuffer_3.get2();
+					this.anInt385 = this.aBuffer_3.get1();
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 170) {
 					this.aBoolean44 = true;
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					local600 = Static7.aClass6Array1[local160];
-					while (this.aClass1_Sub1_Sub3_3.anInt777 < this.anInt349) {
-						local435 = this.aClass1_Sub1_Sub3_3.get1();
-						local606 = this.aClass1_Sub1_Sub3_3.get2();
-						local619 = this.aClass1_Sub1_Sub3_3.get1();
+					while (this.aBuffer_3.anInt777 < this.anInt349) {
+						local435 = this.aBuffer_3.get1();
+						local606 = this.aBuffer_3.get2();
+						local619 = this.aBuffer_3.get1();
 						if (local619 == 255) {
-							local619 = this.aClass1_Sub1_Sub3_3.get4();
+							local619 = this.aBuffer_3.get4();
 						}
 						if (local435 >= 0 && local435 < local600.anIntArray96.length) {
 							local600.anIntArray96[local435] = local606;
@@ -3652,40 +3652,40 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 138) {
-					this.anInt263 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt263 = this.aBuffer_3.get1();
 					this.aBoolean44 = true;
 					this.aBoolean58 = true;
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 255) {
-					this.anInt440 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt440 = this.aBuffer_3.get1();
 					this.aBoolean44 = true;
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 61) {
-					this.anInt436 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt437 = this.aClass1_Sub1_Sub3_3.get1();
-					while (this.aClass1_Sub1_Sub3_3.anInt777 < this.anInt349) {
-						local160 = this.aClass1_Sub1_Sub3_3.get1();
-						this.method168(local160, this.aClass1_Sub1_Sub3_3, this.anInt397);
+					this.anInt436 = this.aBuffer_3.get1();
+					this.anInt437 = this.aBuffer_3.get1();
+					while (this.aBuffer_3.anInt777 < this.anInt349) {
+						local160 = this.aBuffer_3.get1();
+						this.method168(local160, this.aBuffer_3, this.anInt397);
 					}
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 75) {
-					this.anInt317 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt317 = this.aBuffer_3.get1();
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 55) {
 					this.aBoolean60 = true;
-					this.anInt293 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt294 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt295 = this.aClass1_Sub1_Sub3_3.get2();
-					this.anInt296 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt297 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt293 = this.aBuffer_3.get1();
+					this.anInt294 = this.aBuffer_3.get1();
+					this.anInt295 = this.aBuffer_3.get2();
+					this.anInt296 = this.aBuffer_3.get1();
+					this.anInt297 = this.aBuffer_3.get1();
 					if (this.anInt297 >= 100) {
 						this.anInt271 = this.anInt293 * 128 + 64;
 						this.anInt273 = this.anInt294 * 128 + 64;
@@ -3695,17 +3695,17 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 173) {
-					this.anInt436 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt437 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt436 = this.aBuffer_3.get1();
+					this.anInt437 = this.aBuffer_3.get1();
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 29) {
-					@Pc(1504) Class1_Sub1_Sub3 local1504 = Static10.method269(false);
+					@Pc(1504) Buffer local1504 = Static10.method269(false);
 					if (local1504 != null) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 142);
-						this.aClass1_Sub1_Sub3_4.method489(local1504.anInt777);
-						this.aClass1_Sub1_Sub3_4.method496(0, local1504.aByteArray9, local1504.anInt777, false);
+						this.aBuffer_4.method487(4, 142);
+						this.aBuffer_4.method489(local1504.anInt777);
+						this.aBuffer_4.method496(0, local1504.aByteArray9, local1504.anInt777, false);
 						local1504.method486(-359);
 					}
 					this.anInt350 = -1;
@@ -3715,11 +3715,11 @@ public final class client extends Applet_Sub1 {
 				@Pc(1619) int local1619;
 				if (this.anInt350 == 0) {
 					this.aBoolean60 = true;
-					this.anInt416 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt417 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt418 = this.aClass1_Sub1_Sub3_3.get2();
-					this.anInt419 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt420 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt416 = this.aBuffer_3.get1();
+					this.anInt417 = this.aBuffer_3.get1();
+					this.anInt418 = this.aBuffer_3.get2();
+					this.anInt419 = this.aBuffer_3.get1();
+					this.anInt420 = this.aBuffer_3.get1();
 					if (this.anInt420 >= 100) {
 						local160 = this.anInt416 * 128 + 64;
 						local286 = this.anInt417 * 128 + 64;
@@ -3742,8 +3742,8 @@ public final class client extends Applet_Sub1 {
 				}
 				@Pc(1678) Class6 local1678;
 				if (this.anInt350 == 95) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2LE();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2LE();
 					local1678 = Static7.aClass6Array1[local160];
 					local1678.anInt479 = local286;
 					if (local286 == -1) {
@@ -3757,12 +3757,12 @@ public final class client extends Applet_Sub1 {
 					if (this.anInt263 == 12) {
 						this.aBoolean44 = true;
 					}
-					this.anInt307 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt307 = this.aBuffer_3.get1();
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 58) {
-					this.anInt447 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt447 = this.aBuffer_3.get1();
 					if (this.anInt447 == this.anInt263) {
 						if (this.anInt447 == 3) {
 							this.anInt263 = 1;
@@ -3777,9 +3777,9 @@ public final class client extends Applet_Sub1 {
 				@Pc(1759) long local1759;
 				@Pc(1769) boolean local1769;
 				if (this.anInt350 == 60) {
-					local1759 = this.aClass1_Sub1_Sub3_3.get8(0);
-					local435 = this.aClass1_Sub1_Sub3_3.get4();
-					local606 = this.aClass1_Sub1_Sub3_3.get1();
+					local1759 = this.aBuffer_3.get8(0);
+					local435 = this.aBuffer_3.get4();
+					local606 = this.aBuffer_3.get1();
 					local1769 = false;
 					for (local1608 = 0; local1608 < 100; local1608++) {
 						if (this.anIntArray45[local1608] == local435) {
@@ -3799,7 +3799,7 @@ public final class client extends Applet_Sub1 {
 						try {
 							this.anIntArray45[this.anInt434] = local435;
 							this.anInt434 = (this.anInt434 + 1) % 100;
-							@Pc(1838) String local1838 = Static2.method40(this.aClass1_Sub1_Sub3_3, this.anInt349 - 13, -468);
+							@Pc(1838) String local1838 = Static2.method40(this.aBuffer_3, this.anInt349 - 13, -468);
 							@Pc(1842) String local1842 = Static30.method613((byte) -13, local1838);
 							if (local606 == 2 || local606 == 3) {
 								this.method182("@cr2@" + Static36.method683(true, Static36.method680(local1759, true)), 7, this.anInt433, local1842);
@@ -3816,13 +3816,13 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 143) {
-					this.anInt363 = this.aClass1_Sub1_Sub3_3.get2() * 30;
+					this.anInt363 = this.aBuffer_3.get2() * 30;
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 14) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					local1678 = Static7.aClass6Array1[local160];
 					if (local1678 != null && local1678.anInt458 == 0) {
 						if (local286 < 0) {
@@ -3837,8 +3837,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 3) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					Static7.aClass6Array1[local160].anInt475 = 2;
 					Static7.aClass6Array1[local160].anInt476 = local286;
 					this.anInt350 = -1;
@@ -3848,12 +3848,12 @@ public final class client extends Applet_Sub1 {
 					if (this.anInt263 == 12) {
 						this.aBoolean44 = true;
 					}
-					this.anInt340 = this.aClass1_Sub1_Sub3_3.get2LE();
+					this.anInt340 = this.aBuffer_3.get2LE();
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 168) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					local600 = Static7.aClass6Array1[local160];
 					for (local435 = 0; local435 < local600.anIntArray96.length; local435++) {
 						local600.anIntArray96[local435] = -1;
@@ -3863,13 +3863,13 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 123) {
-					this.method170(41268, this.aClass1_Sub1_Sub3_3, this.anInt349);
+					this.method170(41268, this.aBuffer_3, this.anInt349);
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 211) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					Static7.aClass6Array1[local160].anInt475 = 1;
 					Static7.aClass6Array1[local160].anInt476 = local286;
 					this.anInt350 = -1;
@@ -3887,8 +3887,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 91) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get1();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get1();
 					if (local160 == 65535) {
 						local160 = -1;
 					}
@@ -3904,7 +3904,7 @@ public final class client extends Applet_Sub1 {
 					return false;
 				}
 				if (this.anInt350 == 163) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
 					if (local160 == 65535) {
 						local160 = -1;
 					}
@@ -3918,8 +3918,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 242) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					if (this.aBoolean55 && !Static6.aBoolean48) {
 						this.anInt441 = local160;
 						this.aBoolean83 = false;
@@ -3950,8 +3950,8 @@ public final class client extends Applet_Sub1 {
 				}
 				@Pc(2475) int local2475;
 				if (this.anInt350 == 111) {
-					local1759 = this.aClass1_Sub1_Sub3_3.get8(0);
-					local435 = this.aClass1_Sub1_Sub3_3.get1();
+					local1759 = this.aBuffer_3.get8(0);
+					local435 = this.aBuffer_3.get1();
 					@Pc(2336) String local2336 = Static36.method683(true, Static36.method680(local1759, true));
 					for (local619 = 0; local619 < this.anInt439; local619++) {
 						if (local1759 == this.aLongArray4[local619]) {
@@ -3999,7 +3999,7 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 85) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2LE();
+					local160 = this.aBuffer_3.get2LE();
 					if (local160 >= 0) {
 						this.method188(0, local160);
 					}
@@ -4008,7 +4008,7 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 87) {
-					this.method216(this.aClass1_Sub1_Sub3_3, 493, this.anInt349);
+					this.method216(this.aBuffer_3, 493, this.anInt349);
 					this.aBoolean67 = false;
 					this.anInt350 = -1;
 					return true;
@@ -4028,16 +4028,16 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 227) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					@Pc(2664) boolean local2664 = this.aClass1_Sub1_Sub3_3.get1() == 1;
+					local160 = this.aBuffer_3.get2();
+					@Pc(2664) boolean local2664 = this.aBuffer_3.get1() == 1;
 					Static7.aClass6Array1[local160].aBoolean92 = local2664;
 					this.anInt350 = -1;
 					return true;
 				}
 				if (this.anInt350 == 25) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get1();
-					local435 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get1();
+					local435 = this.aBuffer_3.get2();
 					if (this.aBoolean57 && !Static6.aBoolean48 && this.anInt304 < 50) {
 						this.anIntArray34[this.anInt304] = local160;
 						this.anIntArray61[this.anInt304] = local286;
@@ -4049,7 +4049,7 @@ public final class client extends Applet_Sub1 {
 				}
 				@Pc(2751) String local2751;
 				if (this.anInt350 == 73) {
-					local2740 = this.aClass1_Sub1_Sub3_3.getString();
+					local2740 = this.aBuffer_3.getString();
 					@Pc(2754) long local2754;
 					if (local2740.endsWith(":tradereq:")) {
 						local2751 = local2740.substring(0, local2740.indexOf(":"));
@@ -4084,8 +4084,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 41) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local2751 = this.aClass1_Sub1_Sub3_3.getString();
+					local160 = this.aBuffer_3.get2();
+					local2751 = this.aBuffer_3.getString();
 					Static7.aClass6Array1[local160].aString19 = local2751;
 					if (Static7.aClass6Array1[local160].anInt457 == this.anIntArray71[this.anInt263]) {
 						this.aBoolean44 = true;
@@ -4094,9 +4094,9 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 24) {
-					this.anInt422 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt444 = this.aClass1_Sub1_Sub3_3.get1();
-					this.anInt410 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt422 = this.aBuffer_3.get1();
+					this.anInt444 = this.aBuffer_3.get1();
+					this.anInt410 = this.aBuffer_3.get1();
 					this.aBoolean49 = true;
 					this.aBoolean79 = true;
 					this.anInt350 = -1;
@@ -4108,8 +4108,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 209) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					local286 = this.aClass1_Sub1_Sub3_3.get2();
+					local160 = this.aBuffer_3.get2();
+					local286 = this.aBuffer_3.get2();
 					if (this.anInt379 == local160 && this.anInt380 == local286 && this.anInt301 == 2) {
 						this.anInt350 = -1;
 						return true;
@@ -4240,8 +4240,8 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 186) {
-					local160 = this.aClass1_Sub1_Sub3_3.get2();
-					@Pc(3562) byte local3562 = this.aClass1_Sub1_Sub3_3.get1Signed();
+					local160 = this.aBuffer_3.get2();
+					@Pc(3562) byte local3562 = this.aBuffer_3.get1Signed();
 					this.anIntArray74[local160] = local3562;
 					if (this.anIntArray41[local160] != local3562) {
 						this.anIntArray41[local160] = local3562;
@@ -4255,7 +4255,7 @@ public final class client extends Applet_Sub1 {
 					return true;
 				}
 				if (this.anInt350 == 98 || this.anInt350 == 218 || this.anInt350 == 8 || this.anInt350 == 114 || this.anInt350 == 37 || this.anInt350 == 115 || this.anInt350 == 120 || this.anInt350 == 30 || this.anInt350 == 88 || this.anInt350 == 70) {
-					this.method168(this.anInt350, this.aClass1_Sub1_Sub3_3, this.anInt397);
+					this.method168(this.anInt350, this.aBuffer_3, this.anInt397);
 					this.anInt350 = -1;
 					return true;
 				}
@@ -4266,7 +4266,7 @@ public final class client extends Applet_Sub1 {
 			} catch (@Pc(3685) Exception local3685) {
 				local2740 = "T2 - " + this.anInt350 + "," + this.anInt407 + "," + this.anInt408 + " - " + this.anInt349 + "," + (this.anInt381 + Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray16[0]) + "," + (this.anInt382 + Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray17[0]) + " - ";
 				for (local286 = 0; local286 < this.anInt349 && local286 < 50; local286++) {
-					local2740 = local2740 + this.aClass1_Sub1_Sub3_3.aByteArray9[local286] + ",";
+					local2740 = local2740 + this.aBuffer_3.aByteArray9[local286] + ",";
 				}
 				signlink.reporterror(local2740);
 				this.method146(0);
@@ -4342,10 +4342,10 @@ public final class client extends Applet_Sub1 {
 			this.aClass8_1 = new Class8(this, this.method111(Static6.anInt262 + 43594), 6);
 			@Pc(30) long local30 = Static36.method679(arg0);
 			@Pc(37) int local37 = (int) (local30 >> 16 & 0x1FL);
-			this.aClass1_Sub1_Sub3_4.anInt777 = 0;
-			this.aClass1_Sub1_Sub3_4.method488(14);
-			this.aClass1_Sub1_Sub3_4.method488(local37);
-			this.aClass8_1.method248(this.aClass1_Sub1_Sub3_4.aByteArray9, 0, 0, 2);
+			this.aBuffer_4.anInt777 = 0;
+			this.aBuffer_4.method488(14);
+			this.aBuffer_4.method488(local37);
+			this.aClass8_1.method248(this.aBuffer_4.aByteArray9, 0, 0, 2);
 			for (@Pc(60) int local60 = 0; local60 < 8; local60++) {
 				this.aClass8_1.method245();
 			}
@@ -4353,39 +4353,39 @@ public final class client extends Applet_Sub1 {
 			@Pc(217) int local217;
 			@Pc(251) int local251;
 			if (local74 == 0) {
-				this.aClass8_1.method247(this.aClass1_Sub1_Sub3_3.aByteArray9, 0, 8);
-				this.aClass1_Sub1_Sub3_3.anInt777 = 0;
-				this.aLong17 = this.aClass1_Sub1_Sub3_3.get8(0);
+				this.aClass8_1.method247(this.aBuffer_3.aByteArray9, 0, 8);
+				this.aBuffer_3.anInt777 = 0;
+				this.aLong17 = this.aBuffer_3.get8(0);
 				@Pc(97) int[] local97 = new int[] { (int) (Math.random() * 9.9999999E7D), (int) (Math.random() * 9.9999999E7D), (int) (this.aLong17 >> 32), (int) this.aLong17 };
-				this.aClass1_Sub1_Sub3_4.anInt777 = 0;
-				this.aClass1_Sub1_Sub3_4.method488(10);
-				this.aClass1_Sub1_Sub3_4.method492(local97[0]);
-				this.aClass1_Sub1_Sub3_4.method492(local97[1]);
-				this.aClass1_Sub1_Sub3_4.method492(local97[2]);
-				this.aClass1_Sub1_Sub3_4.method492(local97[3]);
-				this.aClass1_Sub1_Sub3_4.method492(signlink.uid);
-				this.aClass1_Sub1_Sub3_4.method495(arg0);
-				this.aClass1_Sub1_Sub3_4.method495(arg1);
-				this.aClass1_Sub1_Sub3_4.rsa(-106, Static6.EXPONENT, Static6.MODULUS);
-				this.aClass1_Sub1_Sub3_2.anInt777 = 0;
+				this.aBuffer_4.anInt777 = 0;
+				this.aBuffer_4.method488(10);
+				this.aBuffer_4.method492(local97[0]);
+				this.aBuffer_4.method492(local97[1]);
+				this.aBuffer_4.method492(local97[2]);
+				this.aBuffer_4.method492(local97[3]);
+				this.aBuffer_4.method492(signlink.uid);
+				this.aBuffer_4.method495(arg0);
+				this.aBuffer_4.method495(arg1);
+				this.aBuffer_4.rsa(-106, Static6.EXPONENT, Static6.MODULUS);
+				this.aBuffer_2.anInt777 = 0;
 				if (arg2) {
-					this.aClass1_Sub1_Sub3_2.method488(18);
+					this.aBuffer_2.method488(18);
 				} else {
-					this.aClass1_Sub1_Sub3_2.method488(16);
+					this.aBuffer_2.method488(16);
 				}
-				this.aClass1_Sub1_Sub3_2.method488(this.aClass1_Sub1_Sub3_4.anInt777 + 36 + 1 + 1);
-				this.aClass1_Sub1_Sub3_2.method488(254);
-				this.aClass1_Sub1_Sub3_2.method488(Static6.aBoolean48 ? 1 : 0);
+				this.aBuffer_2.method488(this.aBuffer_4.anInt777 + 36 + 1 + 1);
+				this.aBuffer_2.method488(254);
+				this.aBuffer_2.method488(Static6.aBoolean48 ? 1 : 0);
 				for (local217 = 0; local217 < 9; local217++) {
-					this.aClass1_Sub1_Sub3_2.method492(this.anIntArray90[local217]);
+					this.aBuffer_2.method492(this.anIntArray90[local217]);
 				}
-				this.aClass1_Sub1_Sub3_2.method496(0, this.aClass1_Sub1_Sub3_4.aByteArray9, this.aClass1_Sub1_Sub3_4.anInt777, false);
-				this.aClass1_Sub1_Sub3_4.aClass47_2 = new Class47((byte) 4, local97);
+				this.aBuffer_2.method496(0, this.aBuffer_4.aByteArray9, this.aBuffer_4.anInt777, false);
+				this.aBuffer_4.aClass47_2 = new Class47((byte) 4, local97);
 				for (local251 = 0; local251 < 4; local251++) {
 					local97[local251] += 50;
 				}
 				this.aClass47_1 = new Class47((byte) 4, local97);
-				this.aClass8_1.method248(this.aClass1_Sub1_Sub3_2.aByteArray9, 0, 0, this.aClass1_Sub1_Sub3_2.anInt777);
+				this.aClass8_1.method248(this.aBuffer_2.aByteArray9, 0, 0, this.aBuffer_2.anInt777);
 				local74 = this.aClass8_1.method245();
 			}
 			if (local74 == 1) {
@@ -4406,8 +4406,8 @@ public final class client extends Applet_Sub1 {
 					super.aBoolean42 = true;
 					this.aBoolean82 = true;
 					this.aBoolean46 = true;
-					this.aClass1_Sub1_Sub3_4.anInt777 = 0;
-					this.aClass1_Sub1_Sub3_3.anInt777 = 0;
+					this.aBuffer_4.anInt777 = 0;
+					this.aBuffer_3.anInt777 = 0;
 					this.anInt350 = -1;
 					this.anInt406 = -1;
 					this.anInt407 = -1;
@@ -4440,7 +4440,7 @@ public final class client extends Applet_Sub1 {
 					this.anInt254 = 0;
 					for (local217 = 0; local217 < this.anInt331; local217++) {
 						this.aClass1_Sub1_Sub1_Sub1_Sub2Array1[local217] = null;
-						this.aClass1_Sub1_Sub3Array1[local217] = null;
+						this.aBufferArray1[local217] = null;
 					}
 					for (local251 = 0; local251 < 16384; local251++) {
 						this.aClass1_Sub1_Sub1_Sub1_Sub1Array1[local251] = null;
@@ -4530,8 +4530,8 @@ public final class client extends Applet_Sub1 {
 					this.aString9 = "Please wait 1 minute and try again.";
 				} else if (local74 == 15) {
 					this.aBoolean46 = true;
-					this.aClass1_Sub1_Sub3_4.anInt777 = 0;
-					this.aClass1_Sub1_Sub3_3.anInt777 = 0;
+					this.aBuffer_4.anInt777 = 0;
+					this.aBuffer_3.anInt777 = 0;
 					this.anInt350 = -1;
 					this.anInt406 = -1;
 					this.anInt407 = -1;
@@ -4787,7 +4787,7 @@ public final class client extends Applet_Sub1 {
 	private void method128(@OriginalArg(0) byte arg0) {
 		try {
 			if (arg0 != 0) {
-				this.anInt350 = this.aClass1_Sub1_Sub3_3.get1();
+				this.anInt350 = this.aBuffer_3.get1();
 			}
 			@Pc(18) int local18;
 			for (@Pc(10) int local10 = -1; local10 < this.anInt333; local10++) {
@@ -5000,8 +5000,8 @@ public final class client extends Applet_Sub1 {
 				Static6.anInt311++;
 				if (Static6.anInt311 > 192) {
 					Static6.anInt311 = 0;
-					this.aClass1_Sub1_Sub3_4.method487(4, 226);
-					this.aClass1_Sub1_Sub3_4.method488(232);
+					this.aBuffer_4.method487(4, 226);
+					this.aBuffer_4.method488(232);
 				}
 				while (true) {
 					@Pc(28) int local28;
@@ -5040,22 +5040,22 @@ public final class client extends Applet_Sub1 {
 										this.method139(local168, false);
 									}
 									if (this.anInt443 == 3 && this.aString17.length() > 0) {
-										this.aClass1_Sub1_Sub3_4.method487(4, 214);
-										this.aClass1_Sub1_Sub3_4.method488(0);
-										local208 = this.aClass1_Sub1_Sub3_4.anInt777;
-										this.aClass1_Sub1_Sub3_4.method494(854, this.aLong16);
-										Static2.method41(this.aClass1_Sub1_Sub3_4, 7, this.aString17);
-										this.aClass1_Sub1_Sub3_4.method497(this.aClass1_Sub1_Sub3_4.anInt777 - local208, true);
+										this.aBuffer_4.method487(4, 214);
+										this.aBuffer_4.method488(0);
+										local208 = this.aBuffer_4.anInt777;
+										this.aBuffer_4.method494(854, this.aLong16);
+										Static2.method41(this.aBuffer_4, 7, this.aString17);
+										this.aBuffer_4.method497(this.aBuffer_4.anInt777 - local208, true);
 										this.aString17 = Static36.method684(39922, this.aString17);
 										this.aString17 = Static30.method613((byte) -13, this.aString17);
 										this.method182(Static36.method683(true, Static36.method680(this.aLong16, true)), 6, this.anInt433, this.aString17);
 										if (this.anInt444 == 2) {
 											this.anInt444 = 1;
 											this.aBoolean49 = true;
-											this.aClass1_Sub1_Sub3_4.method487(4, 129);
-											this.aClass1_Sub1_Sub3_4.method488(this.anInt422);
-											this.aClass1_Sub1_Sub3_4.method488(this.anInt444);
-											this.aClass1_Sub1_Sub3_4.method488(this.anInt410);
+											this.aBuffer_4.method487(4, 129);
+											this.aBuffer_4.method488(this.anInt422);
+											this.aBuffer_4.method488(this.anInt444);
+											this.aBuffer_4.method488(this.anInt410);
 										}
 									}
 									if (this.anInt443 == 4 && this.anInt451 < 100) {
@@ -5083,8 +5083,8 @@ public final class client extends Applet_Sub1 {
 											local208 = Integer.parseInt(this.aString16);
 										} catch (@Pc(385) Exception local385) {
 										}
-										this.aClass1_Sub1_Sub3_4.method487(4, 161);
-										this.aClass1_Sub1_Sub3_4.method492(local208);
+										this.aBuffer_4.method487(4, 161);
+										this.aBuffer_4.method492(local208);
 									}
 									this.aBoolean85 = false;
 									this.aBoolean79 = true;
@@ -5113,9 +5113,9 @@ public final class client extends Applet_Sub1 {
 										}
 									}
 									if (this.aString14.startsWith("::")) {
-										this.aClass1_Sub1_Sub3_4.method487(4, 86);
-										this.aClass1_Sub1_Sub3_4.method488(this.aString14.length() - 1);
-										this.aClass1_Sub1_Sub3_4.method495(this.aString14.substring(2));
+										this.aBuffer_4.method487(4, 86);
+										this.aBuffer_4.method488(this.aString14.length() - 1);
+										this.aBuffer_4.method495(this.aString14.substring(2));
 									} else {
 										@Pc(537) byte local537 = 0;
 										if (this.aString14.startsWith("yellow:")) {
@@ -5175,13 +5175,13 @@ public final class client extends Applet_Sub1 {
 											local695 = 2;
 											this.aString14 = this.aString14.substring(7);
 										}
-										this.aClass1_Sub1_Sub3_4.method487(4, 83);
-										this.aClass1_Sub1_Sub3_4.method488(0);
-										@Pc(734) int local734 = this.aClass1_Sub1_Sub3_4.anInt777;
-										this.aClass1_Sub1_Sub3_4.method488(local537);
-										this.aClass1_Sub1_Sub3_4.method488(local695);
-										Static2.method41(this.aClass1_Sub1_Sub3_4, 7, this.aString14);
-										this.aClass1_Sub1_Sub3_4.method497(this.aClass1_Sub1_Sub3_4.anInt777 - local734, true);
+										this.aBuffer_4.method487(4, 83);
+										this.aBuffer_4.method488(0);
+										@Pc(734) int local734 = this.aBuffer_4.anInt777;
+										this.aBuffer_4.method488(local537);
+										this.aBuffer_4.method488(local695);
+										Static2.method41(this.aBuffer_4, 7, this.aString14);
+										this.aBuffer_4.method497(this.aBuffer_4.anInt777 - local734, true);
 										this.aString14 = Static36.method684(39922, this.aString14);
 										this.aString14 = Static30.method613((byte) -13, this.aString14);
 										Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.aString3 = this.aString14;
@@ -5198,10 +5198,10 @@ public final class client extends Applet_Sub1 {
 										if (this.anInt422 == 2) {
 											this.anInt422 = 3;
 											this.aBoolean49 = true;
-											this.aClass1_Sub1_Sub3_4.method487(4, 129);
-											this.aClass1_Sub1_Sub3_4.method488(this.anInt422);
-											this.aClass1_Sub1_Sub3_4.method488(this.anInt444);
-											this.aClass1_Sub1_Sub3_4.method488(this.anInt410);
+											this.aBuffer_4.method487(4, 129);
+											this.aBuffer_4.method488(this.anInt422);
+											this.aBuffer_4.method488(this.anInt444);
+											this.aBuffer_4.method488(this.anInt410);
 										}
 									}
 									this.aString14 = "";
@@ -5264,7 +5264,7 @@ public final class client extends Applet_Sub1 {
 					}
 				}
 				if (local11.anInt805 == 93 && this.aClass45_Sub1_1.method654(local11.anInt806, (byte) 1)) {
-					Static4.method60(new Class1_Sub1_Sub3(local11.aByteArray10, (byte) 3), this.aClass45_Sub1_1, (byte) -13);
+					Static4.method60(new Buffer(local11.aByteArray10, (byte) 3), this.aClass45_Sub1_1, (byte) -13);
 				}
 			}
 		} catch (@Pc(160) RuntimeException local160) {
@@ -5274,7 +5274,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(ZILclient!mb;)V")
-	private void method133(@OriginalArg(0) boolean arg0, @OriginalArg(1) int arg1, @OriginalArg(2) Class1_Sub1_Sub3 arg2) {
+	private void method133(@OriginalArg(0) boolean arg0, @OriginalArg(1) int arg1, @OriginalArg(2) Buffer arg2) {
 		try {
 			arg2.accessBits(0);
 			@Pc(7) int local7 = arg2.getBit(-416, 1);
@@ -5415,7 +5415,7 @@ public final class client extends Applet_Sub1 {
 	private void method136(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1, @OriginalArg(2) boolean arg2, @OriginalArg(3) byte arg3, @OriginalArg(4) int arg4, @OriginalArg(5) Class6 arg5, @OriginalArg(6) int arg6, @OriginalArg(7) int arg7, @OriginalArg(8) int arg8) {
 		try {
 			if (arg3 != 116) {
-				this.aClass1_Sub1_Sub3_4.method488(214);
+				this.aBuffer_4.method488(214);
 			}
 			if (this.aBoolean87) {
 				this.anInt284 = 32;
@@ -5541,8 +5541,8 @@ public final class client extends Applet_Sub1 {
 							this.anIntArray84[local28] = this.anIntArray84[local28 + 1];
 							this.aLongArray4[local28] = this.aLongArray4[local28 + 1];
 						}
-						this.aClass1_Sub1_Sub3_4.method487(4, 84);
-						this.aClass1_Sub1_Sub3_4.method494(854, arg0);
+						this.aBuffer_4.method487(4, 84);
+						this.aBuffer_4.method494(854, arg0);
 						break;
 					}
 				}
@@ -5591,7 +5591,7 @@ public final class client extends Applet_Sub1 {
 					@Pc(12) boolean local12 = false;
 					try {
 						if (this.anIntArray34[local3] != this.anInt344 || this.anIntArray61[local3] != this.anInt356) {
-							@Pc(45) Class1_Sub1_Sub3 local45 = Static5.method80(this.anIntArray61[local3], this.anIntArray34[local3], (byte) -74);
+							@Pc(45) Buffer local45 = Static5.method80(this.anIntArray61[local3], this.anIntArray34[local3], (byte) -74);
 							if (System.currentTimeMillis() + (long) (local45.anInt777 / 22) > this.aLong14 + (long) (this.anInt435 / 22)) {
 								this.anInt435 = local45.anInt777;
 								this.aLong14 = System.currentTimeMillis();
@@ -5741,7 +5741,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(IBLclient!mb;)V")
-	private void method143(@OriginalArg(0) int arg0, @OriginalArg(1) byte arg1, @OriginalArg(2) Class1_Sub1_Sub3 arg2) {
+	private void method143(@OriginalArg(0) int arg0, @OriginalArg(1) byte arg1, @OriginalArg(2) Buffer arg2) {
 		try {
 			for (@Pc(3) int local3 = 0; local3 < this.anInt334; local3++) {
 				@Pc(10) int local10 = this.anIntArray63[local3];
@@ -5899,7 +5899,7 @@ public final class client extends Applet_Sub1 {
 				this.method97((byte) 6, "Connecting to web server", 20);
 				try {
 					@Pc(133) DataInputStream local133 = this.method165("crc" + (int) (Math.random() * 9.9999999E7D));
-					@Pc(140) Class1_Sub1_Sub3 local140 = new Class1_Sub1_Sub3(new byte[36], (byte) 3);
+					@Pc(140) Buffer local140 = new Buffer(new byte[36], (byte) 3);
 					local133.readFully(local140.aByteArray9, 0, 36);
 					for (@Pc(148) int local148 = 0; local148 < 9; local148++) {
 						this.anIntArray90[local148] = local140.get4();
@@ -6186,7 +6186,7 @@ public final class client extends Applet_Sub1 {
 			if (!Static6.aBoolean48) {
 				this.method97((byte) 6, "Unpacking sounds", 90);
 				@Pc(1642) byte[] local1642 = local331.method678("sounds.dat", null);
-				@Pc(1648) Class1_Sub1_Sub3 local1648 = new Class1_Sub1_Sub3(local1642, (byte) 3);
+				@Pc(1648) Buffer local1648 = new Buffer(local1642, (byte) 3);
 				Static5.method79(true, local1648);
 			}
 			this.method97((byte) 6, "Unpacking interfaces", 95);
@@ -6581,8 +6581,8 @@ public final class client extends Applet_Sub1 {
 					this.aLongArray3[this.anInt451++] = arg0;
 					if (arg1 == 35615) {
 						this.aBoolean44 = true;
-						this.aClass1_Sub1_Sub3_4.method487(4, 189);
-						this.aClass1_Sub1_Sub3_4.method494(854, arg0);
+						this.aBuffer_4.method487(4, 189);
+						this.aBuffer_4.method494(854, arg0);
 					}
 				}
 			}
@@ -6661,7 +6661,7 @@ public final class client extends Applet_Sub1 {
 	private void method153(@OriginalArg(0) int arg0, @OriginalArg(1) byte arg1, @OriginalArg(2) Class1_Sub1_Sub1_Sub1 arg2) {
 		try {
 			if (arg1 != 99) {
-				this.aClass1_Sub1_Sub3_4.method488(172);
+				this.aBuffer_4.method488(172);
 			}
 			this.method154(arg2.anInt128, false, arg2.anInt127, arg0);
 		} catch (@Pc(16) RuntimeException local16) {
@@ -6875,30 +6875,30 @@ public final class client extends Applet_Sub1 {
 				local815 = this.anIntArray82[local57];
 				local821 = this.anIntArray83[local57];
 				if (arg5 == 0) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 6);
-					this.aClass1_Sub1_Sub3_4.method488(local74 + local74 + 3);
+					this.aBuffer_4.method487(4, 6);
+					this.aBuffer_4.method488(local74 + local74 + 3);
 				}
 				if (arg5 == 1) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 220);
-					this.aClass1_Sub1_Sub3_4.method488(local74 + local74 + 3 + 14);
+					this.aBuffer_4.method487(4, 220);
+					this.aBuffer_4.method488(local74 + local74 + 3 + 14);
 				}
 				if (arg5 == 2) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 127);
-					this.aClass1_Sub1_Sub3_4.method488(local74 + local74 + 3);
+					this.aBuffer_4.method487(4, 127);
+					this.aBuffer_4.method488(local74 + local74 + 3);
 				}
 				if (super.anIntArray32[5] == 1) {
-					this.aClass1_Sub1_Sub3_4.method488(1);
+					this.aBuffer_4.method488(1);
 				} else {
-					this.aClass1_Sub1_Sub3_4.method488(0);
+					this.aBuffer_4.method488(0);
 				}
-				this.aClass1_Sub1_Sub3_4.method489(local815 + this.anInt381);
-				this.aClass1_Sub1_Sub3_4.method489(local821 + this.anInt382);
+				this.aBuffer_4.method489(local815 + this.anInt381);
+				this.aBuffer_4.method489(local821 + this.anInt382);
 				this.anInt290 = this.anIntArray82[0];
 				this.anInt291 = this.anIntArray83[0];
 				for (@Pc(1079) int local1079 = 1; local1079 < local74; local1079++) {
 					local57--;
-					this.aClass1_Sub1_Sub3_4.method488(this.anIntArray82[local57] - local815);
-					this.aClass1_Sub1_Sub3_4.method488(this.anIntArray83[local57] - local821);
+					this.aBuffer_4.method488(this.anIntArray82[local57] - local815);
+					this.aBuffer_4.method488(this.anIntArray83[local57] - local821);
 				}
 				return true;
 			} else if (arg5 == 1) {
@@ -6977,7 +6977,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(Lclient!mb;II)V")
-	private void method157(@OriginalArg(0) Class1_Sub1_Sub3 arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
+	private void method157(@OriginalArg(0) Buffer arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
 		try {
 			if (arg2 == 0) {
 				arg0.accessBits(0);
@@ -7047,7 +7047,7 @@ public final class client extends Applet_Sub1 {
 		try {
 			System.out.println("============");
 			if (arg0 >= 0) {
-				this.aClass1_Sub1_Sub3_4.method488(145);
+				this.aBuffer_4.method488(145);
 			}
 			System.out.println("flame-cycle:" + this.anInt322);
 			if (this.aClass45_Sub1_1 != null) {
@@ -7084,7 +7084,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(Lclient!mb;ZI)V")
-	private void method159(@OriginalArg(0) Class1_Sub1_Sub3 arg0, @OriginalArg(1) boolean arg1, @OriginalArg(2) int arg2) {
+	private void method159(@OriginalArg(0) Buffer arg0, @OriginalArg(1) boolean arg1, @OriginalArg(2) int arg2) {
 		try {
 			this.aBoolean46 &= arg1;
 			while (arg0.anInt778 + 21 < arg2 * 8) {
@@ -7232,9 +7232,9 @@ public final class client extends Applet_Sub1 {
 			this.aClass11_1 = null;
 			this.aClass45_Sub1_1.method649();
 			this.aClass45_Sub1_1 = null;
-			this.aClass1_Sub1_Sub3_4 = null;
-			this.aClass1_Sub1_Sub3_2 = null;
-			this.aClass1_Sub1_Sub3_3 = null;
+			this.aBuffer_4 = null;
+			this.aBuffer_2 = null;
+			this.aBuffer_3 = null;
 			this.anIntArray77 = null;
 			this.aByteArrayArray2 = null;
 			this.aByteArrayArray1 = null;
@@ -7299,7 +7299,7 @@ public final class client extends Applet_Sub1 {
 			this.aClass1_Sub1_Sub1_Sub1_Sub2Array1 = null;
 			this.anIntArray62 = null;
 			this.anIntArray63 = null;
-			this.aClass1_Sub1_Sub3Array1 = null;
+			this.aBufferArray1 = null;
 			this.anIntArray67 = null;
 			this.aClass1_Sub1_Sub1_Sub1_Sub1Array1 = null;
 			this.anIntArray42 = null;
@@ -7675,7 +7675,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(ZLclient!mb;I)V")
-	private void method164(@OriginalArg(0) boolean arg0, @OriginalArg(1) Class1_Sub1_Sub3 arg1, @OriginalArg(2) int arg2) {
+	private void method164(@OriginalArg(0) boolean arg0, @OriginalArg(1) Buffer arg1, @OriginalArg(2) int arg2) {
 		try {
 			for (@Pc(1) int local1 = 0; local1 < this.anInt334; local1++) {
 				@Pc(8) int local8 = this.anIntArray63[local1];
@@ -7953,7 +7953,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(ILclient!mb;I)V")
-	private void method168(@OriginalArg(0) int arg0, @OriginalArg(1) Class1_Sub1_Sub3 arg1, @OriginalArg(2) int arg2) {
+	private void method168(@OriginalArg(0) int arg0, @OriginalArg(1) Buffer arg1, @OriginalArg(2) int arg2) {
 		try {
 			if (arg2 <= 0) {
 				arg0 = arg1.get1();
@@ -8242,17 +8242,17 @@ public final class client extends Applet_Sub1 {
 					@Pc(112) int local112 = Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anInt128 - local98 >> 7;
 					@Pc(133) boolean local133 = this.method155(0, 0, 0, 9, local105, 1, Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray17[0], Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anIntArray16[0], local112, true, 0, 0);
 					if (local133) {
-						this.aClass1_Sub1_Sub3_4.method488(local25);
-						this.aClass1_Sub1_Sub3_4.method488(local32);
-						this.aClass1_Sub1_Sub3_4.method489(this.anInt267);
-						this.aClass1_Sub1_Sub3_4.method488(57);
-						this.aClass1_Sub1_Sub3_4.method488(this.anInt279);
-						this.aClass1_Sub1_Sub3_4.method488(this.anInt315);
-						this.aClass1_Sub1_Sub3_4.method488(89);
-						this.aClass1_Sub1_Sub3_4.method489(Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anInt127);
-						this.aClass1_Sub1_Sub3_4.method489(Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anInt128);
-						this.aClass1_Sub1_Sub3_4.method488(this.anInt285);
-						this.aClass1_Sub1_Sub3_4.method488(63);
+						this.aBuffer_4.method488(local25);
+						this.aBuffer_4.method488(local32);
+						this.aBuffer_4.method489(this.anInt267);
+						this.aBuffer_4.method488(57);
+						this.aBuffer_4.method488(this.anInt279);
+						this.aBuffer_4.method488(this.anInt315);
+						this.aBuffer_4.method488(89);
+						this.aBuffer_4.method489(Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anInt127);
+						this.aBuffer_4.method489(Static6.aClass1_Sub1_Sub1_Sub1_Sub2_1.anInt128);
+						this.aBuffer_4.method488(this.anInt285);
+						this.aBuffer_4.method488(63);
 						return;
 					}
 				}
@@ -8264,7 +8264,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "b", descriptor = "(ILclient!mb;I)V")
-	private void method170(@OriginalArg(0) int arg0, @OriginalArg(1) Class1_Sub1_Sub3 arg1, @OriginalArg(2) int arg2) {
+	private void method170(@OriginalArg(0) int arg0, @OriginalArg(1) Buffer arg1, @OriginalArg(2) int arg2) {
 		try {
 			this.anInt364 = 0;
 			this.anInt334 = 0;
@@ -8329,8 +8329,8 @@ public final class client extends Applet_Sub1 {
 						}
 						this.anInt439++;
 						this.aBoolean44 = true;
-						this.aClass1_Sub1_Sub3_4.method487(4, 9);
-						this.aClass1_Sub1_Sub3_4.method494(854, arg0);
+						this.aBuffer_4.method487(4, 9);
+						this.aBuffer_4.method494(854, arg0);
 					}
 				}
 			}
@@ -8834,8 +8834,8 @@ public final class client extends Applet_Sub1 {
 			if (this.aBoolean58) {
 				if (this.anInt447 != -1 && this.anInt447 == this.anInt263) {
 					this.anInt447 = -1;
-					this.aClass1_Sub1_Sub3_4.method487(4, 201);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt263);
+					this.aBuffer_4.method487(4, 201);
+					this.aBuffer_4.method488(this.anInt263);
 				}
 				this.aBoolean58 = false;
 				this.aClass37_9.method538((byte) 9);
@@ -9174,7 +9174,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(ILclient!mb;IILclient!bb;)V")
-	private void method184(@OriginalArg(0) int arg0, @OriginalArg(1) Class1_Sub1_Sub3 arg1, @OriginalArg(2) int arg2, @OriginalArg(3) int arg3, @OriginalArg(4) Class1_Sub1_Sub1_Sub1_Sub2 arg4) {
+	private void method184(@OriginalArg(0) int arg0, @OriginalArg(1) Buffer arg1, @OriginalArg(2) int arg2, @OriginalArg(3) int arg3, @OriginalArg(4) Class1_Sub1_Sub1_Sub1_Sub2 arg4) {
 		try {
 			if (arg3 >= 0) {
 				Static6.anInt312 = this.aClass47_1.method674();
@@ -9183,9 +9183,9 @@ public final class client extends Applet_Sub1 {
 			if ((arg0 & 0x1) == 1) {
 				local15 = arg1.get1();
 				@Pc(18) byte[] local18 = new byte[local15];
-				@Pc(24) Class1_Sub1_Sub3 local24 = new Class1_Sub1_Sub3(local18, (byte) 3);
+				@Pc(24) Buffer local24 = new Buffer(local18, (byte) 3);
 				arg1.getArray(0, this.anInt404, local18, local15);
-				this.aClass1_Sub1_Sub3Array1[arg2] = local24;
+				this.aBufferArray1[arg2] = local24;
 				arg4.method51(local24, true);
 			}
 			@Pc(63) int local63;
@@ -9441,7 +9441,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "b", descriptor = "(Lclient!mb;II)V")
-	private void method186(@OriginalArg(0) Class1_Sub1_Sub3 arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
+	private void method186(@OriginalArg(0) Buffer arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
 		try {
 			@Pc(6) int local6 = arg0.getBit(-416, 8);
 			@Pc(10) int local10 = 22 / arg2;
@@ -9605,7 +9605,7 @@ public final class client extends Applet_Sub1 {
 	private boolean method191(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1) {
 		try {
 			if (arg1 != 0) {
-				this.anInt350 = this.aClass1_Sub1_Sub3_3.get1();
+				this.anInt350 = this.aBuffer_3.get1();
 			}
 			if (arg0 < 0) {
 				return false;
@@ -9830,8 +9830,8 @@ public final class client extends Applet_Sub1 {
 			Static6.anInt318++;
 			if (Static6.anInt318 > 112) {
 				Static6.anInt318 = 0;
-				this.aClass1_Sub1_Sub3_4.method487(4, 4);
-				this.aClass1_Sub1_Sub3_4.method488(50);
+				this.aBuffer_4.method487(4, 4);
+				this.aBuffer_4.method488(50);
 			}
 		} catch (@Pc(437) RuntimeException local437) {
 			signlink.reporterror("62200, " + arg0 + ", " + arg1 + ", " + local437.toString());
@@ -9847,8 +9847,8 @@ public final class client extends Applet_Sub1 {
 				Static6.anInt424++;
 				if (Static6.anInt424 > 122) {
 					Static6.anInt424 = 0;
-					this.aClass1_Sub1_Sub3_4.method487(4, 36);
-					this.aClass1_Sub1_Sub3_4.method488(62);
+					this.aBuffer_4.method487(4, 36);
+					this.aBuffer_4.method488(62);
 				}
 			}
 			@Pc(39) int local39 = this.anInt333;
@@ -9891,7 +9891,7 @@ public final class client extends Applet_Sub1 {
 				}
 			}
 			if (arg1 <= 0) {
-				this.anInt350 = this.aClass1_Sub1_Sub3_3.get1();
+				this.anInt350 = this.aBuffer_3.get1();
 			}
 		} catch (@Pc(248) RuntimeException local248) {
 			signlink.reporterror("46706, " + arg0 + ", " + arg1 + ", " + local248.toString());
@@ -9940,7 +9940,7 @@ public final class client extends Applet_Sub1 {
 		try {
 			@Pc(4) int local4 = arg1.anInt460;
 			if (arg0 != 3) {
-				this.aClass1_Sub1_Sub3_4.method488(227);
+				this.aBuffer_4.method488(227);
 			}
 			if (local4 >= 1 && local4 <= 200 || !(local4 < 701 || local4 > 900)) {
 				if (local4 >= 801) {
@@ -9989,24 +9989,24 @@ public final class client extends Applet_Sub1 {
 			Static6.anInt282++;
 			if (Static6.anInt282 > 1086) {
 				Static6.anInt282 = 0;
-				this.aClass1_Sub1_Sub3_4.method487(4, 225);
-				this.aClass1_Sub1_Sub3_4.method488(0);
-				@Pc(61) int local61 = this.aClass1_Sub1_Sub3_4.anInt777;
+				this.aBuffer_4.method487(4, 225);
+				this.aBuffer_4.method488(0);
+				@Pc(61) int local61 = this.aBuffer_4.anInt777;
 				if ((int) (Math.random() * 2.0D) == 0) {
-					this.aClass1_Sub1_Sub3_4.method489(16791);
+					this.aBuffer_4.method489(16791);
 				}
-				this.aClass1_Sub1_Sub3_4.method488(254);
-				this.aClass1_Sub1_Sub3_4.method489((int) (Math.random() * 65536.0D));
-				this.aClass1_Sub1_Sub3_4.method489(16128);
-				this.aClass1_Sub1_Sub3_4.method489(52610);
-				this.aClass1_Sub1_Sub3_4.method489((int) (Math.random() * 65536.0D));
-				this.aClass1_Sub1_Sub3_4.method489(55420);
+				this.aBuffer_4.method488(254);
+				this.aBuffer_4.method489((int) (Math.random() * 65536.0D));
+				this.aBuffer_4.method489(16128);
+				this.aBuffer_4.method489(52610);
+				this.aBuffer_4.method489((int) (Math.random() * 65536.0D));
+				this.aBuffer_4.method489(55420);
 				if ((int) (Math.random() * 2.0D) == 0) {
-					this.aClass1_Sub1_Sub3_4.method489(35025);
+					this.aBuffer_4.method489(35025);
 				}
-				this.aClass1_Sub1_Sub3_4.method489(46628);
-				this.aClass1_Sub1_Sub3_4.method488((int) (Math.random() * 256.0D));
-				this.aClass1_Sub1_Sub3_4.method497(this.aClass1_Sub1_Sub3_4.anInt777 - local61, true);
+				this.aBuffer_4.method489(46628);
+				this.aBuffer_4.method488((int) (Math.random() * 256.0D));
+				this.aBuffer_4.method497(this.aBuffer_4.anInt777 - local61, true);
 			}
 			if (local33 == 10 || local33 == 11 || local33 == 22) {
 				@Pc(141) Class9 local141 = Static9.method258(local7);
@@ -10031,10 +10031,10 @@ public final class client extends Applet_Sub1 {
 			this.anInt390 = super.anInt237;
 			this.anInt392 = 2;
 			this.anInt391 = 0;
-			this.aClass1_Sub1_Sub3_4.method487(4, arg4);
-			this.aClass1_Sub1_Sub3_4.method489(arg0 + this.anInt381);
-			this.aClass1_Sub1_Sub3_4.method489(arg2 + this.anInt382);
-			this.aClass1_Sub1_Sub3_4.method489(local7);
+			this.aBuffer_4.method487(4, arg4);
+			this.aBuffer_4.method489(arg0 + this.anInt381);
+			this.aBuffer_4.method489(arg2 + this.anInt382);
+			this.aBuffer_4.method489(local7);
 			return true;
 		} catch (@Pc(263) RuntimeException local263) {
 			signlink.reporterror("62999, " + arg0 + ", " + arg1 + ", " + arg2 + ", " + arg3 + ", " + arg4 + ", " + local263.toString());
@@ -10224,7 +10224,7 @@ public final class client extends Applet_Sub1 {
 					local73 = this.method165(arg4 + arg1);
 					@Pc(89) byte[] local89 = new byte[6];
 					local73.readFully(local89, 0, 6);
-					@Pc(100) Class1_Sub1_Sub3 local100 = new Class1_Sub1_Sub3(local89, (byte) 3);
+					@Pc(100) Buffer local100 = new Buffer(local89, (byte) 3);
 					local100.anInt777 = 3;
 					@Pc(108) int local108 = local100.get3() + 6;
 					@Pc(110) int local110 = 6;
@@ -10375,7 +10375,7 @@ public final class client extends Applet_Sub1 {
 				Static6.anInt395++;
 				if (Static6.anInt395 > 57) {
 					Static6.anInt395 = 0;
-					this.aClass1_Sub1_Sub3_4.method487(4, 100);
+					this.aBuffer_4.method487(4, 100);
 				}
 			}
 			if (this.anInt415 != -1) {
@@ -10436,12 +10436,12 @@ public final class client extends Applet_Sub1 {
 					if (!Static6.aBoolean66) {
 						this.aClass11_1.anInt563 = 0;
 					} else if (super.anInt235 != 0 || this.aClass11_1.anInt563 >= 40) {
-						this.aClass1_Sub1_Sub3_4.method487(4, 232);
-						this.aClass1_Sub1_Sub3_4.method488(0);
-						local66 = this.aClass1_Sub1_Sub3_4.anInt777;
+						this.aBuffer_4.method487(4, 232);
+						this.aBuffer_4.method488(0);
+						local66 = this.aBuffer_4.anInt777;
 						local68 = 0;
 						@Pc(86) int local86;
-						for (local70 = 0; local70 < this.aClass11_1.anInt563 && local66 - this.aClass1_Sub1_Sub3_4.anInt777 < 240; local70++) {
+						for (local70 = 0; local70 < this.aClass11_1.anInt563 && local66 - this.aBuffer_4.anInt777 < 240; local70++) {
 							local68++;
 							local86 = this.aClass11_1.anIntArray163[local70];
 							if (local86 < 0) {
@@ -10469,20 +10469,20 @@ public final class client extends Applet_Sub1 {
 								if (this.anInt425 < 8 && local165 >= -32 && local165 <= 31 && local173 >= -32 && local173 <= 31) {
 									local165 += 32;
 									local173 += 32;
-									this.aClass1_Sub1_Sub3_4.method489((this.anInt425 << 12) + (local165 << 6) + local173);
+									this.aBuffer_4.method489((this.anInt425 << 12) + (local165 << 6) + local173);
 									this.anInt425 = 0;
 								} else if (this.anInt425 < 8) {
-									this.aClass1_Sub1_Sub3_4.method491((this.anInt425 << 19) + local120 + 8388608);
+									this.aBuffer_4.method491((this.anInt425 << 19) + local120 + 8388608);
 									this.anInt425 = 0;
 								} else {
-									this.aClass1_Sub1_Sub3_4.method492((this.anInt425 << 19) + local120 - 1073741824);
+									this.aBuffer_4.method492((this.anInt425 << 19) + local120 - 1073741824);
 									this.anInt425 = 0;
 								}
 							} else if (this.anInt425 < 2047) {
 								this.anInt425++;
 							}
 						}
-						this.aClass1_Sub1_Sub3_4.method497(this.aClass1_Sub1_Sub3_4.anInt777 - local66, true);
+						this.aBuffer_4.method497(this.aBuffer_4.anInt777 - local66, true);
 						if (local68 >= this.aClass11_1.anInt563) {
 							this.aClass11_1.anInt563 = 0;
 						} else {
@@ -10518,8 +10518,8 @@ public final class client extends Applet_Sub1 {
 						local382 = 1;
 					}
 					local103 = (int) local336;
-					this.aClass1_Sub1_Sub3_4.method487(4, 234);
-					this.aClass1_Sub1_Sub3_4.method492((local103 << 20) + (local382 << 19) + local70);
+					this.aBuffer_4.method487(4, 234);
+					this.aBuffer_4.method492((local103 << 20) + (local382 << 19) + local70);
 				}
 				if (this.anInt330 > 0) {
 					this.anInt330--;
@@ -10530,28 +10530,28 @@ public final class client extends Applet_Sub1 {
 				if (this.aBoolean62 && this.anInt330 <= 0) {
 					this.anInt330 = 20;
 					this.aBoolean62 = false;
-					this.aClass1_Sub1_Sub3_4.method487(4, 91);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt266);
-					this.aClass1_Sub1_Sub3_4.method489(this.anInt267);
+					this.aBuffer_4.method487(4, 91);
+					this.aBuffer_4.method489(this.anInt266);
+					this.aBuffer_4.method489(this.anInt267);
 				}
 				if (super.aBoolean42 && !this.aBoolean82) {
 					this.aBoolean82 = true;
-					this.aClass1_Sub1_Sub3_4.method487(4, 8);
-					this.aClass1_Sub1_Sub3_4.method488(1);
+					this.aBuffer_4.method487(4, 8);
+					this.aBuffer_4.method488(1);
 				}
 				if (!super.aBoolean42 && this.aBoolean82) {
 					this.aBoolean82 = false;
-					this.aClass1_Sub1_Sub3_4.method487(4, 8);
-					this.aClass1_Sub1_Sub3_4.method488(0);
+					this.aBuffer_4.method487(4, 8);
+					this.aBuffer_4.method488(0);
 				}
 				this.method102(292);
 				this.method101(0);
 				this.method141(false);
-				@Pc(523) Class1_Sub1_Sub3 local523 = Static10.method268(-9917);
+				@Pc(523) Buffer local523 = Static10.method268(-9917);
 				if (local523 != null) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 142);
-					this.aClass1_Sub1_Sub3_4.method489(local523.anInt777);
-					this.aClass1_Sub1_Sub3_4.method496(0, local523.aByteArray9, local523.anInt777, false);
+					this.aBuffer_4.method487(4, 142);
+					this.aBuffer_4.method489(local523.anInt777);
+					this.aBuffer_4.method496(0, local523.aByteArray9, local523.anInt777, false);
 					local523.method486(-359);
 				}
 				this.anInt351++;
@@ -10628,11 +10628,11 @@ public final class client extends Applet_Sub1 {
 								} else {
 									local716.method231(this.anInt400, this.anInt324, 6);
 								}
-								this.aClass1_Sub1_Sub3_4.method487(4, 176);
-								this.aClass1_Sub1_Sub3_4.method489(this.anInt323);
-								this.aClass1_Sub1_Sub3_4.method489(this.anInt324);
-								this.aClass1_Sub1_Sub3_4.method489(this.anInt400);
-								this.aClass1_Sub1_Sub3_4.method488(local718);
+								this.aBuffer_4.method487(4, 176);
+								this.aBuffer_4.method489(this.anInt323);
+								this.aBuffer_4.method489(this.anInt324);
+								this.aBuffer_4.method489(this.anInt400);
+								this.aBuffer_4.method488(local718);
 							}
 						} else if ((this.anInt387 == 1 || this.method191(this.anInt299 - 1, 0)) && this.anInt299 > 2) {
 							this.method160(-2068);
@@ -10646,7 +10646,7 @@ public final class client extends Applet_Sub1 {
 				Static6.anInt430++;
 				if (Static6.anInt430 > 62) {
 					Static6.anInt430 = 0;
-					this.aClass1_Sub1_Sub3_4.method487(4, 182);
+					this.aBuffer_4.method487(4, 182);
 				}
 				@Pc(902) int local902;
 				if (Static28.anInt907 != -1) {
@@ -10687,7 +10687,7 @@ public final class client extends Applet_Sub1 {
 				if (super.anInt228 > 4500) {
 					this.anInt353 = 250;
 					super.anInt228 -= 500;
-					this.aClass1_Sub1_Sub3_4.method487(4, 144);
+					this.aBuffer_4.method487(4, 144);
 				}
 				this.anInt286++;
 				if (this.anInt286 > 500) {
@@ -10746,12 +10746,12 @@ public final class client extends Applet_Sub1 {
 				}
 				this.anInt352++;
 				if (this.anInt352 > 50) {
-					this.aClass1_Sub1_Sub3_4.method487(4, 239);
+					this.aBuffer_4.method487(4, 239);
 				}
 				try {
-					if (this.aClass8_1 != null && this.aClass1_Sub1_Sub3_4.anInt777 > 0) {
-						this.aClass8_1.method248(this.aClass1_Sub1_Sub3_4.aByteArray9, 0, 0, this.aClass1_Sub1_Sub3_4.anInt777);
-						this.aClass1_Sub1_Sub3_4.anInt777 = 0;
+					if (this.aClass8_1 != null && this.aBuffer_4.anInt777 > 0) {
+						this.aClass8_1.method248(this.aBuffer_4.aByteArray9, 0, 0, this.aBuffer_4.anInt777);
+						this.aBuffer_4.anInt777 = 0;
 						this.anInt352 = 0;
 					}
 				} catch (@Pc(1255) IOException local1255) {
@@ -11078,7 +11078,7 @@ public final class client extends Applet_Sub1 {
 			if (arg3 == 8) {
 				@Pc(74) boolean local74 = false;
 			} else {
-				this.aClass1_Sub1_Sub3_4.method488(72);
+				this.aBuffer_4.method488(72);
 			}
 			local3.anInt830 = arg9;
 			local3.anInt832 = arg2;
@@ -11395,7 +11395,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "c", descriptor = "(Lclient!mb;II)V")
-	private void method216(@OriginalArg(0) Class1_Sub1_Sub3 arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
+	private void method216(@OriginalArg(0) Buffer arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
 		try {
 			this.anInt364 = 0;
 			this.anInt334 = 0;
@@ -11446,7 +11446,7 @@ public final class client extends Applet_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!client", name = "a", descriptor = "(IILclient!mb;)V")
-	private void method218(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1, @OriginalArg(2) Class1_Sub1_Sub3 arg2) {
+	private void method218(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1, @OriginalArg(2) Buffer arg2) {
 		try {
 			while (true) {
 				if (arg2.anInt778 + 10 < arg0 * 8) {
@@ -11454,8 +11454,8 @@ public final class client extends Applet_Sub1 {
 					if (local12 != 2047) {
 						if (this.aClass1_Sub1_Sub1_Sub1_Sub2Array1[local12] == null) {
 							this.aClass1_Sub1_Sub1_Sub1_Sub2Array1[local12] = new Class1_Sub1_Sub1_Sub1_Sub2();
-							if (this.aClass1_Sub1_Sub3Array1[local12] != null) {
-								this.aClass1_Sub1_Sub1_Sub1_Sub2Array1[local12].method51(this.aClass1_Sub1_Sub3Array1[local12], true);
+							if (this.aBufferArray1[local12] != null) {
+								this.aClass1_Sub1_Sub1_Sub1_Sub2Array1[local12].method51(this.aBufferArray1[local12], true);
 							}
 						}
 						this.anIntArray62[this.anInt333++] = local12;
@@ -11637,7 +11637,7 @@ public final class client extends Applet_Sub1 {
 				} else {
 					this.aClass39_1.method545((byte) -9, 0);
 				}
-				this.aClass1_Sub1_Sub3_4.method487(4, 239);
+				this.aBuffer_4.method487(4, 239);
 				@Pc(143) byte[] local143;
 				for (local68 = 0; local68 < local55; local68++) {
 					local75 = (this.anIntArray77[local68] >> 8) * 64 - this.anInt381;
@@ -11655,7 +11655,7 @@ public final class client extends Applet_Sub1 {
 						local51.method57((byte) 1, 64, local138, local195, 64);
 					}
 				}
-				this.aClass1_Sub1_Sub3_4.method487(4, 239);
+				this.aBuffer_4.method487(4, 239);
 				@Pc(245) int local245;
 				for (local138 = 0; local138 < local55; local138++) {
 					local143 = this.aByteArrayArray1[local138];
@@ -11665,10 +11665,10 @@ public final class client extends Applet_Sub1 {
 						local51.method61(local257, this.aClass39_1, local245, local143, this.aClass19Array1, (byte) 2);
 					}
 				}
-				this.aClass1_Sub1_Sub3_4.method487(4, 239);
+				this.aBuffer_4.method487(4, 239);
 				local51.method63(this.aClass39_1, this.aClass19Array1, 44106);
 				this.aClass37_5.method538((byte) 9);
-				this.aClass1_Sub1_Sub3_4.method487(4, 239);
+				this.aBuffer_4.method487(4, 239);
 				for (local195 = 0; local195 < 104; local195++) {
 					for (local245 = 0; local245 < 104; local245++) {
 						this.method196(local195, local245);
@@ -12137,28 +12137,28 @@ public final class client extends Applet_Sub1 {
 			Static6.anInt287++;
 			if (Static6.anInt287 > 1174) {
 				Static6.anInt287 = 0;
-				this.aClass1_Sub1_Sub3_4.method487(4, 51);
-				this.aClass1_Sub1_Sub3_4.method488(0);
-				@Pc(191) int local191 = this.aClass1_Sub1_Sub3_4.anInt777;
+				this.aBuffer_4.method487(4, 51);
+				this.aBuffer_4.method488(0);
+				@Pc(191) int local191 = this.aBuffer_4.anInt777;
 				if ((int) (Math.random() * 2.0D) == 0) {
-					this.aClass1_Sub1_Sub3_4.method489(11499);
+					this.aBuffer_4.method489(11499);
 				}
-				this.aClass1_Sub1_Sub3_4.method489(10548);
+				this.aBuffer_4.method489(10548);
 				if ((int) (Math.random() * 2.0D) == 0) {
-					this.aClass1_Sub1_Sub3_4.method488(139);
+					this.aBuffer_4.method488(139);
 				}
 				if ((int) (Math.random() * 2.0D) == 0) {
-					this.aClass1_Sub1_Sub3_4.method488(94);
+					this.aBuffer_4.method488(94);
 				}
-				this.aClass1_Sub1_Sub3_4.method489(51693);
-				this.aClass1_Sub1_Sub3_4.method488(16);
-				this.aClass1_Sub1_Sub3_4.method489(15036);
+				this.aBuffer_4.method489(51693);
+				this.aBuffer_4.method488(16);
+				this.aBuffer_4.method489(15036);
 				if ((int) (Math.random() * 2.0D) == 0) {
-					this.aClass1_Sub1_Sub3_4.method488(65);
+					this.aBuffer_4.method488(65);
 				}
-				this.aClass1_Sub1_Sub3_4.method488((int) (Math.random() * 256.0D));
-				this.aClass1_Sub1_Sub3_4.method489(22990);
-				this.aClass1_Sub1_Sub3_4.method497(this.aClass1_Sub1_Sub3_4.anInt777 - local191, true);
+				this.aBuffer_4.method488((int) (Math.random() * 256.0D));
+				this.aBuffer_4.method489(22990);
+				this.aBuffer_4.method497(this.aBuffer_4.anInt777 - local191, true);
 			}
 		} catch (@Pc(265) RuntimeException local265) {
 			signlink.reporterror("5276, " + arg0 + ", " + local265.toString());
@@ -12180,7 +12180,7 @@ public final class client extends Applet_Sub1 {
 				this.aClass37_5.method539(4, 4, super.aGraphics2, true);
 				this.anInt290 = 0;
 				if (arg0 != this.anInt305) {
-					this.anInt350 = this.aClass1_Sub1_Sub3_3.get1();
+					this.anInt350 = this.aBuffer_3.get1();
 				}
 				@Pc(65) Class8 local65 = this.aClass8_1;
 				this.aBoolean46 = false;
@@ -12207,28 +12207,28 @@ public final class client extends Applet_Sub1 {
 					this.anInt422 = (this.anInt422 + 1) % 4;
 					this.aBoolean49 = true;
 					this.aBoolean79 = true;
-					this.aClass1_Sub1_Sub3_4.method487(4, 129);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt422);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt444);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt410);
+					this.aBuffer_4.method487(4, 129);
+					this.aBuffer_4.method488(this.anInt422);
+					this.aBuffer_4.method488(this.anInt444);
+					this.aBuffer_4.method488(this.anInt410);
 				}
 				if (super.anInt236 >= 135 && super.anInt236 <= 235 && super.anInt237 >= 467 && super.anInt237 <= 499) {
 					this.anInt444 = (this.anInt444 + 1) % 3;
 					this.aBoolean49 = true;
 					this.aBoolean79 = true;
-					this.aClass1_Sub1_Sub3_4.method487(4, 129);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt422);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt444);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt410);
+					this.aBuffer_4.method487(4, 129);
+					this.aBuffer_4.method488(this.anInt422);
+					this.aBuffer_4.method488(this.anInt444);
+					this.aBuffer_4.method488(this.anInt410);
 				}
 				if (super.anInt236 >= 273 && super.anInt236 <= 373 && super.anInt237 >= 467 && super.anInt237 <= 499) {
 					this.anInt410 = (this.anInt410 + 1) % 3;
 					this.aBoolean49 = true;
 					this.aBoolean79 = true;
-					this.aClass1_Sub1_Sub3_4.method487(4, 129);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt422);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt444);
-					this.aClass1_Sub1_Sub3_4.method488(this.anInt410);
+					this.aBuffer_4.method487(4, 129);
+					this.aBuffer_4.method488(this.anInt422);
+					this.aBuffer_4.method488(this.anInt444);
+					this.aBuffer_4.method488(this.anInt410);
 				}
 				if (super.anInt236 >= 412 && super.anInt236 <= 512 && super.anInt237 >= 467 && super.anInt237 <= 499) {
 					this.method109(889);

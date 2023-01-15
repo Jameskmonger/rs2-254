@@ -176,7 +176,7 @@ public final class Class15 {
 	}
 
 	@OriginalMember(owner = "client!hc", name = "a", descriptor = "(ILclient!mb;)V")
-	public void method347(@OriginalArg(0) int arg0, @OriginalArg(1) Class1_Sub1_Sub3 arg1) {
+	public void method347(@OriginalArg(0) int arg0, @OriginalArg(1) Buffer arg1) {
 		try {
 			@Pc(9) int local9;
 			if (arg0 < 9 || arg0 > 9) {

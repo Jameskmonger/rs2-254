@@ -36,8 +36,8 @@ public final class Class1_Sub1_Sub2_Sub3 extends Class1_Sub1_Sub2 {
 
 	@OriginalMember(owner = "client!kb", name = "<init>", descriptor = "(Lclient!yb;Ljava/lang/String;I)V")
 	public Class1_Sub1_Sub2_Sub3(@OriginalArg(0) Class48 arg0, @OriginalArg(1) String arg1, @OriginalArg(2) int arg2) {
-		@Pc(22) Class1_Sub1_Sub3 local22 = new Class1_Sub1_Sub3(arg0.method678(arg1 + ".dat", null), (byte) 3);
-		@Pc(31) Class1_Sub1_Sub3 local31 = new Class1_Sub1_Sub3(arg0.method678("index.dat", null), (byte) 3);
+		@Pc(22) Buffer local22 = new Buffer(arg0.method678(arg1 + ".dat", null), (byte) 3);
+		@Pc(31) Buffer local31 = new Buffer(arg0.method678("index.dat", null), (byte) 3);
 		local31.anInt777 = local22.get2();
 		this.anInt719 = local31.get2();
 		this.anInt720 = local31.get2();

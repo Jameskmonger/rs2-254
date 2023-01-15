@@ -6,7 +6,7 @@ import org.openrs2.deob.annotation.Pc;
 import sign.signlink;
 
 @OriginalClass("client!mb")
-public final class Class1_Sub1_Sub3 extends Class1_Sub1 {
+public final class Buffer extends Class1_Sub1 {
 
 	@OriginalMember(owner = "client!mb", name = "x", descriptor = "[I")
 	private static int[] anIntArray225 = new int[256];
@@ -74,7 +74,7 @@ public final class Class1_Sub1_Sub3 extends Class1_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!mb", name = "<init>", descriptor = "(I)V")
-	public Class1_Sub1_Sub3(@OriginalArg(0) int arg0) {
+	public Buffer(@OriginalArg(0) int arg0) {
 		try {
 			if (arg0 != 0) {
 				for (@Pc(295) int local295 = 1; local295 > 0; local295++) {
@@ -87,7 +87,7 @@ public final class Class1_Sub1_Sub3 extends Class1_Sub1 {
 	}
 
 	@OriginalMember(owner = "client!mb", name = "<init>", descriptor = "([BB)V")
-	public Class1_Sub1_Sub3(@OriginalArg(0) byte[] arg0, @OriginalArg(1) byte arg1) {
+	public Buffer(@OriginalArg(0) byte[] arg0, @OriginalArg(1) byte arg1) {
 		try {
 			if (arg1 != 3) {
 				throw new NullPointerException();
