@@ -6,7 +6,7 @@ import org.openrs2.deob.annotation.Pc;
 import sign.signlink;
 
 @OriginalClass("client!lb")
-public final class Class1_Sub1_Sub2_Sub4 extends Class1_Sub1_Sub2 {
+public final class RSFont extends Class1_Sub1_Sub2 {
 
 	@OriginalMember(owner = "client!lb", name = "O", descriptor = "[I")
 	private static int[] anIntArray220 = new int[256];
@@ -68,7 +68,7 @@ public final class Class1_Sub1_Sub2_Sub4 extends Class1_Sub1_Sub2 {
 	}
 
 	@OriginalMember(owner = "client!lb", name = "<init>", descriptor = "(Ljava/lang/String;Lclient!yb;Z)V")
-	public Class1_Sub1_Sub2_Sub4(@OriginalArg(0) String arg0, @OriginalArg(1) Class48 arg1, @OriginalArg(2) boolean arg2) {
+	public RSFont(@OriginalArg(0) String arg0, @OriginalArg(1) Class48 arg1, @OriginalArg(2) boolean arg2) {
 		try {
 			@Pc(67) Buffer local67 = new Buffer(arg1.method678(arg0 + ".dat", null), (byte) 3);
 			@Pc(76) Buffer local76 = new Buffer(arg1.method678("index.dat", null), (byte) 3);

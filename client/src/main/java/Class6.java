@@ -128,7 +128,7 @@ public final class Class6 {
 	public boolean aBoolean100;
 
 	@OriginalMember(owner = "client!d", name = "Q", descriptor = "Lclient!lb;")
-	public Class1_Sub1_Sub2_Sub4 aClass1_Sub1_Sub2_Sub4_5;
+	public RSFont aRSFont_5;
 
 	@OriginalMember(owner = "client!d", name = "R", descriptor = "Ljava/lang/String;")
 	public String aString19;

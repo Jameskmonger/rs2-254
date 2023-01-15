@@ -18,7 +18,7 @@ public final class Static7 {
 	public static Class42 aClass42_2 = new Class42((byte) 3, 30);
 
 	@OriginalMember(owner = "client!d", name = "a", descriptor = "(Lclient!yb;I[Lclient!lb;Lclient!yb;)V")
-	public static void method230(@OriginalArg(0) Class48 arg0, @OriginalArg(1) int arg1, @OriginalArg(2) Class1_Sub1_Sub2_Sub4[] arg2, @OriginalArg(3) Class48 arg3) {
+	public static void method230(@OriginalArg(0) Class48 arg0, @OriginalArg(1) int arg1, @OriginalArg(2) RSFont[] arg2, @OriginalArg(3) Class48 arg3) {
 		try {
 			aClass42_3 = new Class42((byte) 3, 50000);
 			@Pc(16) Buffer local16 = new Buffer(arg3.method678("data", null), (byte) 3);
@@ -136,7 +136,7 @@ public final class Static7 {
 						local56.aBoolean99 = local16.get1() == 1;
 						local154 = local16.get1();
 						if (arg2 != null) {
-							local56.aClass1_Sub1_Sub2_Sub4_5 = arg2[local154];
+							local56.aRSFont_5 = arg2[local154];
 						}
 						local56.aBoolean100 = local16.get1() == 1;
 					}
@@ -197,7 +197,7 @@ public final class Static7 {
 						local56.aBoolean99 = local16.get1() == 1;
 						local154 = local16.get1();
 						if (arg2 != null) {
-							local56.aClass1_Sub1_Sub2_Sub4_5 = arg2[local154];
+							local56.aRSFont_5 = arg2[local154];
 						}
 						local56.aBoolean100 = local16.get1() == 1;
 						local56.anInt471 = local16.get4();

@@ -240,16 +240,16 @@ public final class client extends Applet_Sub1 {
 	private int anInt314;
 
 	@OriginalMember(owner = "client!client", name = "Hd", descriptor = "Lclient!lb;")
-	private Class1_Sub1_Sub2_Sub4 aClass1_Sub1_Sub2_Sub4_1;
+	private RSFont aRSFont_1;
 
 	@OriginalMember(owner = "client!client", name = "Id", descriptor = "Lclient!lb;")
-	private Class1_Sub1_Sub2_Sub4 aClass1_Sub1_Sub2_Sub4_2;
+	private RSFont aRSFont_2;
 
 	@OriginalMember(owner = "client!client", name = "Jd", descriptor = "Lclient!lb;")
-	private Class1_Sub1_Sub2_Sub4 aClass1_Sub1_Sub2_Sub4_3;
+	private RSFont aRSFont_3;
 
 	@OriginalMember(owner = "client!client", name = "Kd", descriptor = "Lclient!lb;")
-	private Class1_Sub1_Sub2_Sub4 aClass1_Sub1_Sub2_Sub4_4;
+	private RSFont aRSFont_4;
 
 	@OriginalMember(owner = "client!client", name = "Ld", descriptor = "I")
 	private int anInt315;
@@ -2023,8 +2023,8 @@ public final class client extends Applet_Sub1 {
 			if (arg0 > 0) {
 				if (Static6.aBoolean48 && this.anInt301 == 2 && Static4.anInt201 != this.anInt278) {
 					this.aClass37_5.method538((byte) 9);
-					this.aClass1_Sub1_Sub2_Sub4_2.method465(151, "Loading - please wait.", 0, 257, 0);
-					this.aClass1_Sub1_Sub2_Sub4_2.method465(150, "Loading - please wait.", 0, 256, 16777215);
+					this.aRSFont_2.method465(151, "Loading - please wait.", 0, 257, 0);
+					this.aRSFont_2.method465(150, "Loading - please wait.", 0, 256, 16777215);
 					this.aClass37_5.method539(4, 4, super.aGraphics2, true);
 					this.anInt301 = 1;
 					this.aLong18 = System.currentTimeMillis();
@@ -2106,57 +2106,57 @@ public final class client extends Applet_Sub1 {
 			@Pc(79) int local79;
 			if (this.anInt386 == 0) {
 				local36 = local27 / 2 + 80;
-				this.aClass1_Sub1_Sub2_Sub4_1.method466(7711145, local25 / 2, this.aClass45_Sub1_1.aString30, true, local36, true);
+				this.aRSFont_1.method466(7711145, local25 / 2, this.aClass45_Sub1_1.aString30, true, local36, true);
 				@Pc(55) int local55 = local27 / 2 - 20;
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16776960, local25 / 2, "Welcome to RuneScape", true, local55, true);
+				this.aRSFont_3.method466(16776960, local25 / 2, "Welcome to RuneScape", true, local55, true);
 				@Pc(67) int local67 = local55 + 30;
 				local73 = local25 / 2 - 80;
 				local79 = local27 / 2 + 20;
 				this.aClass1_Sub1_Sub2_Sub3_15.method445(1, local73 - 73, local79 - 20);
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local73, "New user", true, local79 + 5, true);
+				this.aRSFont_3.method466(16777215, local73, "New user", true, local79 + 5, true);
 				@Pc(106) int local106 = local25 / 2 + 80;
 				this.aClass1_Sub1_Sub2_Sub3_15.method445(1, local106 - 73, local79 - 20);
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local106, "Existing User", true, local79 + 5, true);
+				this.aRSFont_3.method466(16777215, local106, "Existing User", true, local79 + 5, true);
 			}
 			if (this.anInt386 == 2) {
 				local36 = local27 / 2 - 40;
 				if (this.aString8.length() > 0) {
-					this.aClass1_Sub1_Sub2_Sub4_3.method466(16776960, local25 / 2, this.aString8, true, local36 - 15, true);
-					this.aClass1_Sub1_Sub2_Sub4_3.method466(16776960, local25 / 2, this.aString9, true, local36, true);
+					this.aRSFont_3.method466(16776960, local25 / 2, this.aString8, true, local36 - 15, true);
+					this.aRSFont_3.method466(16776960, local25 / 2, this.aString9, true, local36, true);
 					local36 += 30;
 				} else {
-					this.aClass1_Sub1_Sub2_Sub4_3.method466(16776960, local25 / 2, this.aString9, true, local36 - 7, true);
+					this.aRSFont_3.method466(16776960, local25 / 2, this.aString9, true, local36 - 7, true);
 					local36 += 30;
 				}
-				this.aClass1_Sub1_Sub2_Sub4_3.method470(true, "Username: " + this.aString10 + (this.anInt348 == 0 & Static6.anInt426 % 40 < 20 ? "@yel@|" : ""), local36, (byte) 45, 16777215, local25 / 2 - 90);
+				this.aRSFont_3.method470(true, "Username: " + this.aString10 + (this.anInt348 == 0 & Static6.anInt426 % 40 < 20 ? "@yel@|" : ""), local36, (byte) 45, 16777215, local25 / 2 - 90);
 				local36 += 15;
-				this.aClass1_Sub1_Sub2_Sub4_3.method470(true, "Password: " + Static36.method685(this.aByte12, this.aString11) + (this.anInt348 == 1 & Static6.anInt426 % 40 < 20 ? "@yel@|" : ""), local36, (byte) 45, 16777215, local25 / 2 - 88);
+				this.aRSFont_3.method470(true, "Password: " + Static36.method685(this.aByte12, this.aString11) + (this.anInt348 == 1 & Static6.anInt426 % 40 < 20 ? "@yel@|" : ""), local36, (byte) 45, 16777215, local25 / 2 - 88);
 				local36 += 15;
 				if (!arg0) {
 					local73 = local25 / 2 - 80;
 					local79 = local27 / 2 + 50;
 					this.aClass1_Sub1_Sub2_Sub3_15.method445(1, local73 - 73, local79 - 20);
-					this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local73, "Login", true, local79 + 5, true);
+					this.aRSFont_3.method466(16777215, local73, "Login", true, local79 + 5, true);
 					local73 = local25 / 2 + 80;
 					this.aClass1_Sub1_Sub2_Sub3_15.method445(1, local73 - 73, local79 - 20);
-					this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local73, "Cancel", true, local79 + 5, true);
+					this.aRSFont_3.method466(16777215, local73, "Cancel", true, local79 + 5, true);
 				}
 			}
 			if (this.anInt386 == 3) {
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16776960, local25 / 2, "Create a free account", true, local27 / 2 - 60, true);
+				this.aRSFont_3.method466(16776960, local25 / 2, "Create a free account", true, local27 / 2 - 60, true);
 				local36 = local27 / 2 - 35;
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local25 / 2, "To create a new account you need to", true, local36, true);
+				this.aRSFont_3.method466(16777215, local25 / 2, "To create a new account you need to", true, local36, true);
 				local36 += 15;
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local25 / 2, "go back to the main RuneScape webpage", true, local36, true);
+				this.aRSFont_3.method466(16777215, local25 / 2, "go back to the main RuneScape webpage", true, local36, true);
 				local36 += 15;
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local25 / 2, "and choose the red 'create account'", true, local36, true);
+				this.aRSFont_3.method466(16777215, local25 / 2, "and choose the red 'create account'", true, local36, true);
 				local36 += 15;
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local25 / 2, "button at the top right of that page.", true, local36, true);
+				this.aRSFont_3.method466(16777215, local25 / 2, "button at the top right of that page.", true, local36, true);
 				local36 += 15;
 				local73 = local25 / 2;
 				local79 = local27 / 2 + 50;
 				this.aClass1_Sub1_Sub2_Sub3_15.method445(1, local73 - 73, local79 - 20);
-				this.aClass1_Sub1_Sub2_Sub4_3.method466(16777215, local73, "Cancel", true, local79 + 5, true);
+				this.aRSFont_3.method466(16777215, local73, "Cancel", true, local79 + 5, true);
 			}
 			this.aClass37_12.method539(171, 202, super.aGraphics2, true);
 			if (this.aBoolean75) {
@@ -2583,7 +2583,7 @@ public final class client extends Applet_Sub1 {
 				}
 			}
 			if (this.anInt313 != 0) {
-				@Pc(17) Class1_Sub1_Sub2_Sub4 local17 = this.aClass1_Sub1_Sub2_Sub4_2;
+				@Pc(17) RSFont local17 = this.aRSFont_2;
 				@Pc(19) int local19 = 0;
 				if (this.anInt363 != 0) {
 					local19 = 1;
@@ -2753,8 +2753,8 @@ public final class client extends Applet_Sub1 {
 												}
 												if (local268.anInt690 == 33 || local78.anIntArray97[local160] != 1) {
 													local347 = local78.anIntArray97[local160];
-													this.aClass1_Sub1_Sub2_Sub4_1.method468(0, local177 + local210 + 1, local186 + 10 + local212, this.anInt405, Static6.method211((byte) 0, local347));
-													this.aClass1_Sub1_Sub2_Sub4_1.method468(16776960, local177 + local210, local186 + 9 + local212, this.anInt405, Static6.method211((byte) 0, local347));
+													this.aRSFont_1.method468(0, local177 + local210 + 1, local186 + 10 + local212, this.anInt405, Static6.method211((byte) 0, local347));
+													this.aRSFont_1.method468(16776960, local177 + local210, local186 + 9 + local212, this.anInt405, Static6.method211((byte) 0, local347));
 												}
 											}
 										}
@@ -2795,9 +2795,9 @@ public final class client extends Applet_Sub1 {
 								Static14.method460(256 - (local78.aByte16 & 0xFF), (byte) 9, local160, local78.anInt461, local83, local78.anInt462, local88);
 							}
 						} else {
-							@Pc(683) Class1_Sub1_Sub2_Sub4 local683;
+							@Pc(683) RSFont local683;
 							if (local78.anInt458 == 4) {
-								local683 = local78.aClass1_Sub1_Sub2_Sub4_5;
+								local683 = local78.aRSFont_5;
 								@Pc(686) String local686 = local78.aString19;
 								@Pc(688) boolean local688 = false;
 								if (this.anInt438 == local78.anInt456 || this.anInt445 == local78.anInt456 || this.anInt421 == local78.anInt456) {
@@ -2916,7 +2916,7 @@ public final class client extends Applet_Sub1 {
 								Static16.anInt661 = local160;
 								Static16.anInt662 = local162;
 							} else if (local78.anInt458 == 7) {
-								local683 = local78.aClass1_Sub1_Sub2_Sub4_5;
+								local683 = local78.aRSFont_5;
 								local162 = 0;
 								for (local166 = 0; local166 < local78.anInt462; local166++) {
 									for (local177 = 0; local177 < local78.anInt461; local177++) {
@@ -4128,8 +4128,8 @@ public final class client extends Applet_Sub1 {
 					this.anInt301 = 1;
 					this.aLong18 = System.currentTimeMillis();
 					this.aClass37_5.method538((byte) 9);
-					this.aClass1_Sub1_Sub2_Sub4_2.method465(151, "Loading - please wait.", 0, 257, 0);
-					this.aClass1_Sub1_Sub2_Sub4_2.method465(150, "Loading - please wait.", 0, 256, 16777215);
+					this.aRSFont_2.method465(151, "Loading - please wait.", 0, 257, 0);
+					this.aRSFont_2.method465(150, "Loading - please wait.", 0, 256, 16777215);
 					this.aClass37_5.method539(4, 4, super.aGraphics2, true);
 					local435 = 0;
 					for (local606 = (this.anInt379 - 6) / 8; local606 <= (this.anInt379 + 6) / 8; local606++) {
@@ -4835,7 +4835,7 @@ public final class client extends Applet_Sub1 {
 				if (this.anInt299 > 2) {
 					local31 = local31 + "@whi@ / " + (this.anInt299 - 2) + " more options";
 				}
-				this.aClass1_Sub1_Sub2_Sub4_3.method471(15, local31, 21042, 16777215, true, Static6.anInt426 / 1000, 4);
+				this.aRSFont_3.method471(15, local31, 21042, 16777215, true, Static6.anInt426 / 1000, 4);
 				if (arg0 >= 0) {
 					this.anInt350 = -1;
 				}
@@ -5920,10 +5920,10 @@ public final class client extends Applet_Sub1 {
 				}
 			}
 			this.aClass48_1 = this.method200("title screen", this.anIntArray90[1], 25, false, "title", 1);
-			this.aClass1_Sub1_Sub2_Sub4_1 = new Class1_Sub1_Sub2_Sub4("p11", this.aClass48_1, true);
-			this.aClass1_Sub1_Sub2_Sub4_2 = new Class1_Sub1_Sub2_Sub4("p12", this.aClass48_1, true);
-			this.aClass1_Sub1_Sub2_Sub4_3 = new Class1_Sub1_Sub2_Sub4("b12", this.aClass48_1, true);
-			this.aClass1_Sub1_Sub2_Sub4_4 = new Class1_Sub1_Sub2_Sub4("q8", this.aClass48_1, true);
+			this.aRSFont_1 = new RSFont("p11", this.aClass48_1, true);
+			this.aRSFont_2 = new RSFont("p12", this.aClass48_1, true);
+			this.aRSFont_3 = new RSFont("b12", this.aClass48_1, true);
+			this.aRSFont_4 = new RSFont("q8", this.aClass48_1, true);
 			this.method193((byte) 8);
 			this.method225(-111);
 			@Pc(271) Class48 local271 = this.method200("config", this.anIntArray90[2], 30, false, "config", 2);
@@ -6190,7 +6190,7 @@ public final class client extends Applet_Sub1 {
 				Static5.method79(true, local1648);
 			}
 			this.method97((byte) 6, "Unpacking interfaces", 95);
-			@Pc(1679) Class1_Sub1_Sub2_Sub4[] local1679 = new Class1_Sub1_Sub2_Sub4[] { this.aClass1_Sub1_Sub2_Sub4_1, this.aClass1_Sub1_Sub2_Sub4_2, this.aClass1_Sub1_Sub2_Sub4_3, this.aClass1_Sub1_Sub2_Sub4_4 };
+			@Pc(1679) RSFont[] local1679 = new RSFont[] { this.aRSFont_1, this.aRSFont_2, this.aRSFont_3, this.aRSFont_4 };
 			Static7.method230(local295, 7, local1679, local283);
 			this.method97((byte) 6, "Preparing game engine", 100);
 			@Pc(1695) int local1695;
@@ -6619,7 +6619,7 @@ public final class client extends Applet_Sub1 {
 						if ((local29 == 3 || local29 == 7) && (local29 == 7 || this.anInt444 == 0 || this.anInt444 == 1 && this.method115(local34, (byte) -97))) {
 							@Pc(87) int local87 = 329 - local5 * 13;
 							if (super.anInt230 > 4 && super.anInt231 - 4 > local87 - 10 && super.anInt231 - 4 <= local87 + 3) {
-								@Pc(126) int local126 = this.aClass1_Sub1_Sub2_Sub4_2.method467("From:  " + local34 + this.aStringArray2[local17], true) + 25;
+								@Pc(126) int local126 = this.aRSFont_2.method467("From:  " + local34 + this.aStringArray2[local17], true) + 25;
 								if (local126 > 450) {
 									local126 = 450;
 								}
@@ -7133,10 +7133,10 @@ public final class client extends Applet_Sub1 {
 			if (arg0 != -2068) {
 				this.anInt404 = -497;
 			}
-			@Pc(13) int local13 = this.aClass1_Sub1_Sub2_Sub4_3.method467("Choose Option", true);
+			@Pc(13) int local13 = this.aRSFont_3.method467("Choose Option", true);
 			@Pc(26) int local26;
 			for (@Pc(15) int local15 = 0; local15 < this.anInt299; local15++) {
-				local26 = this.aClass1_Sub1_Sub2_Sub4_3.method467(this.aStringArray4[local15], true);
+				local26 = this.aRSFont_3.method467(this.aStringArray4[local15], true);
 				if (local26 > local13) {
 					local13 = local26;
 				}
@@ -8939,40 +8939,40 @@ public final class client extends Applet_Sub1 {
 				this.aBoolean49 = false;
 				this.aClass37_7.method538((byte) 9);
 				this.aClass1_Sub1_Sub2_Sub3_6.method445(1, 0, 0);
-				this.aClass1_Sub1_Sub2_Sub4_2.method466(16777215, 55, "Public chat", true, 28, true);
+				this.aRSFont_2.method466(16777215, 55, "Public chat", true, 28, true);
 				if (this.anInt422 == 0) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(65280, 55, "On", true, 41, true);
+					this.aRSFont_2.method466(65280, 55, "On", true, 41, true);
 				}
 				if (this.anInt422 == 1) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(16776960, 55, "Friends", true, 41, true);
+					this.aRSFont_2.method466(16776960, 55, "Friends", true, 41, true);
 				}
 				if (this.anInt422 == 2) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(16711680, 55, "Off", true, 41, true);
+					this.aRSFont_2.method466(16711680, 55, "Off", true, 41, true);
 				}
 				if (this.anInt422 == 3) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(65535, 55, "Hide", true, 41, true);
+					this.aRSFont_2.method466(65535, 55, "Hide", true, 41, true);
 				}
-				this.aClass1_Sub1_Sub2_Sub4_2.method466(16777215, 184, "Private chat", true, 28, true);
+				this.aRSFont_2.method466(16777215, 184, "Private chat", true, 28, true);
 				if (this.anInt444 == 0) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(65280, 184, "On", true, 41, true);
+					this.aRSFont_2.method466(65280, 184, "On", true, 41, true);
 				}
 				if (this.anInt444 == 1) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(16776960, 184, "Friends", true, 41, true);
+					this.aRSFont_2.method466(16776960, 184, "Friends", true, 41, true);
 				}
 				if (this.anInt444 == 2) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(16711680, 184, "Off", true, 41, true);
+					this.aRSFont_2.method466(16711680, 184, "Off", true, 41, true);
 				}
-				this.aClass1_Sub1_Sub2_Sub4_2.method466(16777215, 324, "Trade/duel", true, 28, true);
+				this.aRSFont_2.method466(16777215, 324, "Trade/duel", true, 28, true);
 				if (this.anInt410 == 0) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(65280, 324, "On", true, 41, true);
+					this.aRSFont_2.method466(65280, 324, "On", true, 41, true);
 				}
 				if (this.anInt410 == 1) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(16776960, 324, "Friends", true, 41, true);
+					this.aRSFont_2.method466(16776960, 324, "Friends", true, 41, true);
 				}
 				if (this.anInt410 == 2) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method466(16711680, 324, "Off", true, 41, true);
+					this.aRSFont_2.method466(16711680, 324, "Off", true, 41, true);
 				}
-				this.aClass1_Sub1_Sub2_Sub4_2.method466(16777215, 458, "Report abuse", true, 33, true);
+				this.aRSFont_2.method466(16777215, 458, "Report abuse", true, 33, true);
 				this.aClass37_7.method539(453, 0, super.aGraphics2, true);
 				this.aClass37_5.method538((byte) 9);
 			}
@@ -10158,13 +10158,13 @@ public final class client extends Applet_Sub1 {
 					@Pc(31) short local31 = 360;
 					@Pc(33) short local33 = 200;
 					@Pc(35) byte local35 = 20;
-					this.aClass1_Sub1_Sub2_Sub4_3.method465(local33 / 2 - local35 - 26, "RuneScape is loading - please wait...", 0, local31 / 2, 16777215);
+					this.aRSFont_3.method465(local33 / 2 - local35 - 26, "RuneScape is loading - please wait...", 0, local31 / 2, 16777215);
 					@Pc(59) int local59 = local33 / 2 - local35 - 18;
 					Static14.method459(9179409, 304, local59, true, local31 / 2 - 152, 34);
 					Static14.method459(0, 302, local59 + 1, true, local31 / 2 - 151, 32);
 					Static14.method458(30, arg2 * 3, local31 / 2 - 150, local59 + 2, (byte) 3, 9179409);
 					Static14.method458(30, 300 - arg2 * 3, local31 / 2 - 150 + arg2 * 3, local59 + 2, (byte) 3, 0);
-					this.aClass1_Sub1_Sub2_Sub4_3.method465(local33 / 2 + 5 - local35, arg1, 0, local31 / 2, 16777215);
+					this.aRSFont_3.method465(local33 / 2 + 5 - local35, arg1, 0, local31 / 2, 16777215);
 					this.aClass37_12.method539(171, 202, super.aGraphics2, true);
 					if (this.aBoolean75) {
 						this.aBoolean75 = false;
@@ -10404,9 +10404,9 @@ public final class client extends Applet_Sub1 {
 				@Pc(161) int local161 = local157 / 60;
 				@Pc(165) int local165 = local157 % 60;
 				if (local165 < 10) {
-					this.aClass1_Sub1_Sub2_Sub4_2.method468(16776960, 4, 329, this.anInt405, "System update in: " + local161 + ":0" + local165);
+					this.aRSFont_2.method468(16776960, 4, 329, this.anInt405, "System update in: " + local161 + ":0" + local165);
 				} else {
-					this.aClass1_Sub1_Sub2_Sub4_2.method468(16776960, 4, 329, this.anInt405, "System update in: " + local161 + ":" + local165);
+					this.aRSFont_2.method468(16776960, 4, 329, this.anInt405, "System update in: " + local161 + ":" + local165);
 				}
 			}
 		} catch (@Pc(209) RuntimeException local209) {
@@ -10797,18 +10797,18 @@ public final class client extends Applet_Sub1 {
 			Static16.anIntArray185 = this.anIntArray87;
 			this.aClass1_Sub1_Sub2_Sub3_11.method445(1, 0, 0);
 			if (this.aBoolean81) {
-				this.aClass1_Sub1_Sub2_Sub4_3.method465(40, this.aString15, 0, 239, 0);
-				this.aClass1_Sub1_Sub2_Sub4_3.method465(60, this.aString17 + "*", 0, 239, 128);
+				this.aRSFont_3.method465(40, this.aString15, 0, 239, 0);
+				this.aRSFont_3.method465(60, this.aString17 + "*", 0, 239, 128);
 			} else if (this.aBoolean85) {
-				this.aClass1_Sub1_Sub2_Sub4_3.method465(40, "Enter amount:", 0, 239, 0);
-				this.aClass1_Sub1_Sub2_Sub4_3.method465(60, this.aString16 + "*", 0, 239, 128);
+				this.aRSFont_3.method465(40, "Enter amount:", 0, 239, 0);
+				this.aRSFont_3.method465(60, this.aString16 + "*", 0, 239, 128);
 			} else if (this.aString18 != null) {
-				this.aClass1_Sub1_Sub2_Sub4_3.method465(40, this.aString18, 0, 239, 0);
-				this.aClass1_Sub1_Sub2_Sub4_3.method465(60, "Click to continue", 0, 239, 128);
+				this.aRSFont_3.method465(40, this.aString18, 0, 239, 0);
+				this.aRSFont_3.method465(60, "Click to continue", 0, 239, 128);
 			} else if (this.anInt413 != -1) {
 				this.method113(Static6.anInt347, 0, Static7.aClass6Array1[this.anInt413], 0, 0);
 			} else if (this.anInt283 == -1) {
-				@Pc(130) Class1_Sub1_Sub2_Sub4 local130 = this.aClass1_Sub1_Sub2_Sub4_2;
+				@Pc(130) RSFont local130 = this.aRSFont_2;
 				@Pc(132) int local132 = 0;
 				Static14.method455(463, true, 0, 77, 0);
 				for (@Pc(140) int local140 = 0; local140 < 100; local140++) {
@@ -11360,7 +11360,7 @@ public final class client extends Applet_Sub1 {
 			Static14.method458(local13, local10, local4, local7, (byte) 3, local15);
 			Static14.method458(16, local10 - 2, local4 + 1, local7 + 1, (byte) 3, 0);
 			Static14.method459(0, local10 - 2, local7 + 18, true, local4 + 1, local13 - 19);
-			this.aClass1_Sub1_Sub2_Sub4_3.method468(local15, local4 + 3, local7 + 14, this.anInt405, "Choose Option");
+			this.aRSFont_3.method468(local15, local4 + 3, local7 + 14, this.anInt405, "Choose Option");
 			@Pc(66) int local66 = super.anInt230;
 			@Pc(69) int local69 = super.anInt231;
 			@Pc(74) int local74;
@@ -11386,7 +11386,7 @@ public final class client extends Applet_Sub1 {
 				if (local66 > local4 && local66 < local4 + local10 && local69 > local113 - 13 && local69 < local113 + 3) {
 					local115 = 16776960;
 				}
-				this.aClass1_Sub1_Sub2_Sub4_3.method470(true, this.aStringArray4[local74], local113, (byte) 45, local115, local4 + 3);
+				this.aRSFont_3.method470(true, this.aStringArray4[local74], local113, (byte) 45, local115, local4 + 3);
 			}
 		} catch (@Pc(156) RuntimeException local156) {
 			signlink.reporterror("18218, " + arg0 + ", " + local156.toString());
@@ -11885,8 +11885,8 @@ public final class client extends Applet_Sub1 {
 					if (local13.aString3 != null && (local6 >= this.anInt333 || this.anInt422 == 0 || this.anInt422 == 3 || this.anInt422 == 1 && this.method115(((Class1_Sub1_Sub1_Sub1_Sub2) local13).aString4, (byte) -97))) {
 						this.method153(local13.anInt168, (byte) 99, local13);
 						if (this.anInt288 > -1 && this.anInt308 < this.anInt309) {
-							this.anIntArray57[this.anInt308] = this.aClass1_Sub1_Sub2_Sub4_3.method467(local13.aString3, true) / 2;
-							this.anIntArray56[this.anInt308] = this.aClass1_Sub1_Sub2_Sub4_3.anInt751;
+							this.anIntArray57[this.anInt308] = this.aRSFont_3.method467(local13.aString3, true) / 2;
+							this.anIntArray56[this.anInt308] = this.aRSFont_3.anInt751;
 							this.anIntArray54[this.anInt308] = this.anInt288;
 							this.anIntArray55[this.anInt308] = this.anInt289;
 							this.anIntArray58[this.anInt308] = local13.anInt139;
@@ -11929,8 +11929,8 @@ public final class client extends Applet_Sub1 {
 									this.anInt289 -= 10;
 								}
 								this.aClass1_Sub1_Sub2_Sub2Array4[local13.anIntArray14[local53]].method406(1, this.anInt288 - 12, this.anInt289 - 12);
-								this.aClass1_Sub1_Sub2_Sub4_1.method465(this.anInt289 + 4, String.valueOf(local13.anIntArray13[local53]), 0, this.anInt288, 0);
-								this.aClass1_Sub1_Sub2_Sub4_1.method465(this.anInt289 + 3, String.valueOf(local13.anIntArray13[local53]), 0, this.anInt288 - 1, 16777215);
+								this.aRSFont_1.method465(this.anInt289 + 4, String.valueOf(local13.anIntArray13[local53]), 0, this.anInt288, 0);
+								this.aRSFont_1.method465(this.anInt289 + 3, String.valueOf(local13.anIntArray13[local53]), 0, this.anInt288 - 1, 16777215);
 							}
 						}
 					}
@@ -12001,24 +12001,24 @@ public final class client extends Applet_Sub1 {
 						}
 					}
 					if (this.anIntArray59[local564] == 0) {
-						this.aClass1_Sub1_Sub2_Sub4_3.method465(this.anInt289 + 1, local693, 0, this.anInt288, 0);
-						this.aClass1_Sub1_Sub2_Sub4_3.method465(this.anInt289, local693, 0, this.anInt288, local698);
+						this.aRSFont_3.method465(this.anInt289 + 1, local693, 0, this.anInt288, 0);
+						this.aRSFont_3.method465(this.anInt289, local693, 0, this.anInt288, local698);
 					}
 					if (this.anIntArray59[local564] == 1) {
-						this.aClass1_Sub1_Sub2_Sub4_3.method469(this.anInt303, 0, (byte) -94, this.anInt288, local693, this.anInt289 + 1);
-						this.aClass1_Sub1_Sub2_Sub4_3.method469(this.anInt303, local698, (byte) -94, this.anInt288, local693, this.anInt289);
+						this.aRSFont_3.method469(this.anInt303, 0, (byte) -94, this.anInt288, local693, this.anInt289 + 1);
+						this.aRSFont_3.method469(this.anInt303, local698, (byte) -94, this.anInt288, local693, this.anInt289);
 					}
 					if (this.anIntArray59[local564] == 2) {
-						local773 = this.aClass1_Sub1_Sub2_Sub4_3.method467(local693, true);
+						local773 = this.aRSFont_3.method467(local693, true);
 						@Pc(994) int local994 = (150 - this.anIntArray60[local564]) * (local773 + 100) / 150;
 						Static14.method455(this.anInt288 + 50, true, this.anInt288 - 50, 334, 0);
-						this.aClass1_Sub1_Sub2_Sub4_3.method468(0, this.anInt288 + 50 - local994, this.anInt289 + 1, this.anInt405, local693);
-						this.aClass1_Sub1_Sub2_Sub4_3.method468(local698, this.anInt288 + 50 - local994, this.anInt289, this.anInt405, local693);
+						this.aRSFont_3.method468(0, this.anInt288 + 50 - local994, this.anInt289 + 1, this.anInt405, local693);
+						this.aRSFont_3.method468(local698, this.anInt288 + 50 - local994, this.anInt289, this.anInt405, local693);
 						Static14.method454(579);
 					}
 				} else {
-					this.aClass1_Sub1_Sub2_Sub4_3.method465(this.anInt289 + 1, local693, 0, this.anInt288, 0);
-					this.aClass1_Sub1_Sub2_Sub4_3.method465(this.anInt289, local693, 0, this.anInt288, 16776960);
+					this.aRSFont_3.method465(this.anInt289 + 1, local693, 0, this.anInt288, 0);
+					this.aRSFont_3.method465(this.anInt289, local693, 0, this.anInt288, 16776960);
 				}
 			}
 		} catch (@Pc(1071) RuntimeException local1071) {
@@ -12173,10 +12173,10 @@ public final class client extends Applet_Sub1 {
 				this.method146(0);
 			} else {
 				this.aClass37_5.method538((byte) 9);
-				this.aClass1_Sub1_Sub2_Sub4_2.method465(144, "Connection lost", 0, 257, 0);
-				this.aClass1_Sub1_Sub2_Sub4_2.method465(143, "Connection lost", 0, 256, 16777215);
-				this.aClass1_Sub1_Sub2_Sub4_2.method465(159, "Please wait - attempting to reestablish", 0, 257, 0);
-				this.aClass1_Sub1_Sub2_Sub4_2.method465(158, "Please wait - attempting to reestablish", 0, 256, 16777215);
+				this.aRSFont_2.method465(144, "Connection lost", 0, 257, 0);
+				this.aRSFont_2.method465(143, "Connection lost", 0, 256, 16777215);
+				this.aRSFont_2.method465(159, "Please wait - attempting to reestablish", 0, 257, 0);
+				this.aRSFont_2.method465(158, "Please wait - attempting to reestablish", 0, 256, 16777215);
 				this.aClass37_5.method539(4, 4, super.aGraphics2, true);
 				this.anInt290 = 0;
 				if (arg0 != this.anInt305) {
